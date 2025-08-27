@@ -1,0 +1,4 @@
+2025-08-21 14:00:56.0252 DEBUG 73106571-92b2-4a75-a03b-43fff60f1a03'li mail başarıyla oluşturuldu.
+2025-08-21 14:01:28.9375 DEBUG ca2e165e-8c4c-4ee8-95af-47156ec2c85c'li bildirim başarıyla oluşturuldu.
+2025-08-21 14:03:19.7958 DEBUG 2b2819d3-5585-4643-8661-b22d7465d5fe'li mail başarıyla oluşturuldu.
+2025-08-21 14:03:35.3474 DEBUG 144ce79f-027c-4bb1-a2d3-cffc50f7f040'li bildirim başarıyla oluşturuldu.

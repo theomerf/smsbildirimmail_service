@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F3C2457-6BAC-4372-BDC4-F4F76A37936E}|Services\\Services.csproj|c:\\users\\omerf\\onedrive\\masa\u00FCst\u00FC\\staj\\nes\\nesapi\\services\\mailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F3C2457-6BAC-4372-BDC4-F4F76A37936E}|Services\\Services.csproj|solutionrelative:services\\mailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7BFB72-CAE4-4763-9D39-888D1ABBFDFB}|API\\API.csproj|C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesAPI\\api\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7BFB72-CAE4-4763-9D39-888D1ABBFDFB}|API\\API.csproj|solutionrelative:api\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7BFB72-CAE4-4763-9D39-888D1ABBFDFB}|API\\API.csproj|C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesAPI\\api\\infrastructure\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7BFB72-CAE4-4763-9D39-888D1ABBFDFB}|API\\API.csproj|solutionrelative:api\\infrastructure\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{994264E0-6C3A-44DE-8326-D9D734BF68F9}|Entities\\Entities.csproj|C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesAPI\\entities\\models\\mailattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{994264E0-6C3A-44DE-8326-D9D734BF68F9}|Entities\\Entities.csproj|solutionrelative:entities\\models\\mailattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MailManager.cs",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesAPI\\Services\\MailManager.cs",
+              "RelativeDocumentMoniker": "Services\\MailManager.cs",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesAPI\\Services\\MailManager.cs",
+              "RelativeToolTip": "Services\\MailManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T06:32:45.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesAPI\\API\\Infrastructure\\Extensions\\ServiceExtension.cs",
+              "RelativeDocumentMoniker": "API\\Infrastructure\\Extensions\\ServiceExtension.cs",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesAPI\\API\\Infrastructure\\Extensions\\ServiceExtension.cs",
+              "RelativeToolTip": "API\\Infrastructure\\Extensions\\ServiceExtension.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T06:18:09.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MailAttachment.cs",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesAPI\\Entities\\Models\\MailAttachment.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\MailAttachment.cs",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesAPI\\Entities\\Models\\MailAttachment.cs",
+              "RelativeToolTip": "Entities\\Models\\MailAttachment.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T08:23:02.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatsController.cs",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesAPI\\API\\Controllers\\StatsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\StatsController.cs",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesAPI\\API\\Controllers\\StatsController.cs",
+              "RelativeToolTip": "API\\Controllers\\StatsController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T05:50:40.448Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

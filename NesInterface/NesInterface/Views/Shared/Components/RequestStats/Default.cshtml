@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Stat>
+
+<div class="stats-container">
+    <h1 class="stats-title">İstatistikler</h1>
+    <div class="content-table">
+        <div class="table-wrapper">
+            <div class="table-header">
+                <div class="header-cell">
+                    KİME
+                </div>
+                <div class="header-cell">
+                    BAŞARILI
+                </div>
+                <div class="header-cell">
+                    BAŞARISIZ
+                </div>
+                <div class="header-cell">
+                    MAİL SAYISI
+                </div>
+                <div class="header-cell">
+                    BİLDİRİM SAYISI
+                </div>
+                <div class="header-cell">
+                    SMS SAYISI
+                </div>
+            </div>
+
+            @foreach(var stat in Model)
+            {
+                <div class="table-row">
+                    <div class="cell">
+                        <div class="stat-to">
+                            <strong>@stat.To</strong>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="stat">
+                            <strong>@stat.SuccessCount</strong>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="stat">
+                            <strong>@stat.FailureCount</strong>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="stat">
+                            <strong>@stat.MailCount</strong>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="stat">
+                            <strong>@stat.NotificationCount</strong>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="stat">
+                            <strong>@stat.SmsCount</strong>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>

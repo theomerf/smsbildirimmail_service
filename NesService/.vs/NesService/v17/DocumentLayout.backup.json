@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1995D8F7-8E09-4888-8DAA-647C9B6BF3EB}|Services\\Services.csproj|c:\\users\\omerf\\onedrive\\masa\u00FCst\u00FC\\staj\\nes\\nesservice\\services\\mailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1995D8F7-8E09-4888-8DAA-647C9B6BF3EB}|Services\\Services.csproj|solutionrelative:services\\mailmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1995D8F7-8E09-4888-8DAA-647C9B6BF3EB}|Services\\Services.csproj|C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesService\\services\\smsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1995D8F7-8E09-4888-8DAA-647C9B6BF3EB}|Services\\Services.csproj|solutionrelative:services\\smsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1995D8F7-8E09-4888-8DAA-647C9B6BF3EB}|Services\\Services.csproj|C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesService\\services\\notificationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1995D8F7-8E09-4888-8DAA-647C9B6BF3EB}|Services\\Services.csproj|solutionrelative:services\\notificationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79CE2A6C-1C5D-453D-90E8-03B607649C57}|NesService\\NesService.csproj|C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesService\\nesservice\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{79CE2A6C-1C5D-453D-90E8-03B607649C57}|NesService\\NesService.csproj|solutionrelative:nesservice\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesService\\NesService\\App.config",
+              "RelativeDocumentMoniker": "NesService\\App.config",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesService\\NesService\\App.config",
+              "RelativeToolTip": "NesService\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-13T08:24:59.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SmsManager.cs",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesService\\Services\\SmsManager.cs",
+              "RelativeDocumentMoniker": "Services\\SmsManager.cs",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesService\\Services\\SmsManager.cs",
+              "RelativeToolTip": "Services\\SmsManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:21:50.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotificationManager.cs",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesService\\Services\\NotificationManager.cs",
+              "RelativeDocumentMoniker": "Services\\NotificationManager.cs",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesService\\Services\\NotificationManager.cs",
+              "RelativeToolTip": "Services\\NotificationManager.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwBUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T08:21:49.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MailManager.cs",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesService\\Services\\MailManager.cs",
+              "RelativeDocumentMoniker": "Services\\MailManager.cs",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesService\\Services\\MailManager.cs",
+              "RelativeToolTip": "Services\\MailManager.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAwKYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T07:49:28.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

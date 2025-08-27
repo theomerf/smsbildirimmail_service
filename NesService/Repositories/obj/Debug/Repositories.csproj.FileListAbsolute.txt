@@ -1,0 +1,16 @@
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\bin\Debug\Repositories.dll.config
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\bin\Debug\Repositories.dll
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\bin\Debug\Repositories.pdb
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\bin\Debug\Entities.dll
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\bin\Debug\EntityFramework.dll
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\bin\Debug\System.Data.SqlClient.dll
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\bin\Debug\Entities.pdb
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\bin\Debug\EntityFramework.xml
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\bin\Debug\System.Data.SqlClient.xml
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\obj\Debug\Repositories.csproj.AssemblyReference.cache
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\obj\Debug\Reposito.787EC4B2.Up2Date
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\obj\Debug\Repositories.dll
+C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\Repositories\obj\Debug\Repositories.pdb

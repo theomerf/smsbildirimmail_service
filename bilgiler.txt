@@ -1,0 +1,8 @@
+Dependency servicenin çalışması için db de
+ALTER DATABASE [YourDatabaseName] SET ENABLE_BROKER; komutu yürütülmeli
+
+Servis derlemesi için:(yönetici çalıştır powershelli)
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesService\NesService\bin\Debug\NesService.exe
+
+Servis kaldırması için:
+sc.exe delete "NesService"

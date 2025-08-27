@@ -1,0 +1,79 @@
+﻿@model Request
+<div class="form-container mt-5">
+    <div class="form-header">
+        <a asp-action="Index" class="back-btn">
+            <i class="fas fa-arrow-left"></i>Geri
+        </a>
+        <h1><i class="fas fa-user-plus"></i> Request Oluştur</h1>
+        <p>Yeni request bilgilerini eksiksiz olarak doldurunuz</p>
+    </div>
+
+    <div class="form-body">
+        <div id="errors" class="text-danger validation-summary-errors" asp-validation-summary="All"></div>
+        <form method="post" asp-action="AddRequest" id="internForm" class="hxform validation">
+            @Html.AntiForgeryToken()
+            <div class="form-grid">
+                <div class="form-group">
+                    <label class="form-label" asp-for="From">
+                        <i class="fas fa-user"></i>Kimden
+                    </label>
+                    <input type="text" class="form-control" asp-for="From" placeholder="Göndereni giriniz" />
+                    <span asp-validation-for="From" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="To">
+                        <i class="fas fa-user"></i>Kime
+                    </label>
+                    <input type="text" class="form-control" asp-for="To" placeholder="Gönderileni giriniz" />
+                    <span asp-validation-for="To" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="Subject">
+                        <i class="fas fa-envelope"></i>Başlık
+                    </label>
+                    <input type="text" class="form-control" asp-for="Subject" placeholder="Başlık giriniz" />
+                    <span asp-validation-for="Subject" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="Body">
+                        <i class="fas fa-phone"></i>İçerik
+                    </label>
+                    <input type="text" class="form-control" asp-for="Body" placeholder="İçerik giriniz" />
+                    <span asp-validation-for="Body" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="Cc">
+                        <i class="fas fa-phone"></i>Cc (Opsiyonel)
+                    </label>
+                    <input type="email" class="form-control" asp-for="Cc" placeholder="ornek@gmail.com" />
+                    <span asp-validation-for="Cc" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" asp-for="Bcc">
+                        <i class="fas fa-phone"></i>Bcc (Opsiyonel)
+                    </label>
+                    <input type="email" class="form-control" asp-for="Bcc" placeholder="ornek@gmail.com" />
+                    <span asp-validation-for="Bcc" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input class="form-check-input" type="checkbox" asp-for="IsBodyHtml" id="isBodyHtml">
+                    <label class="form-check-label" for="isBodyHtml">
+                        HtmlBody
+                    </label>
+                </div>
+                <span asp-validation-for="IsBodyHtml" class="text-danger"></span>
+
+            </div>
+
+            <button type="submit" hx-on:click="handleFormSubmit();" class="form-submit-btn" id="submitBtn">
+                <i class="fas fa-user-plus"></i> Request Oluştur
+            </button>
+        </form>
+    </div>
+</div>

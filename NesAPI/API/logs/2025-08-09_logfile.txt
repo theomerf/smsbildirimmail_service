@@ -1,0 +1,25 @@
+2025-08-09 16:18:36.1332 INFO cc0953af-3f11-428a-8382-8900e04f7783'li mail başarıyla oluşturuldu.
+2025-08-09 17:02:04.4748 ERROR Controller'da bir hata oluştu: System.Exception: !!!!!!
+   konum: Services.MailManager.<CreateMailAsync>d__4.MoveNext() C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesAPI\Services\MailManager.cs içinde: satır 42
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   konum: API.Controllers.MailController.<Send>d__2.MoveNext() C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesAPI\API\Controllers\MailController.cs içinde: satır 27
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2025-08-09 17:47:47.1722 INFO 5a5fe6cb-1feb-40c1-bc6d-96d5c0254d44'li mail başarıyla oluşturuldu.

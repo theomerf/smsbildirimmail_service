@@ -1,0 +1,102 @@
+﻿@model IEnumerable<Request>
+
+<div class="container-fluid">
+    <div class="my-5">
+        @await Component.InvokeAsync("RequestStats")
+    </div>
+        <div class="main-card">
+            <div class="card-header">
+                <div class="header-content">
+                    <h3 class="header-title">
+                        REQUESTLER
+                    </h3>
+                    <a asp-action="AddRequest" class="add-button">
+                        <i class="fas fa-plus" style="color:green;"></i>
+                        EKLE
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <div class="requests">
+                    @foreach (var request in Model)
+                    {
+                        <div class="request">
+                            <div class="request-header">
+                                <div class="field-group">
+                                    <div class="field-label">
+                                        <i class="fas fa-user-circle"></i>
+                                        Kimden
+                                    </div>
+                                    <div class="field-value">@request.From</div>
+                                </div>
+                                <div class="field-group">
+                                    <div class="field-label">
+                                        <i class="fas fa-user-check"></i>
+                                        Kime
+                                    </div>
+                                    <div class="field-value">@request.To</div>
+                                </div>
+                            </div>
+
+                            <div class="field-group subject-field">
+                                <div class="field-label">
+                                    <i class="fas fa-heading"></i>
+                                    Başlık
+                                </div>
+                                <div class="field-value subject-value">@request.Subject</div>
+                            </div>
+
+                            <div class="field-group content-field">
+                                <div class="field-label">
+                                    <i class="fas fa-file-alt"></i>
+                                    İçerik
+                                </div>
+                                <div class="content-value">
+                                    @request.Body
+                                </div>
+                            </div>
+
+                            <div class="action-buttons">
+                                <form method="post" asp-action="SendMail" asp-route-requestId="@request.Id">
+                                    <button type="submit" class="action-btn btn-email">
+                                        <i class="fas fa-envelope"></i>
+                                        Mail Gönder
+                                    </button>
+                                </form>
+
+                                <form method="post" asp-action="SendNotification" asp-route-requestId="@request.Id">
+                                    <button type="submit" class="action-btn btn-notification">
+                                        <i class="fas fa-bell"></i>
+                                        Bildirim Gönder
+                                    </button>
+                                </form>
+
+                                <form method="post" asp-action="SendSms" asp-route-requestId="@request.Id">
+                                    <button type="submit" class="action-btn btn-sms">
+                                        <i class="fas fa-sms"></i>
+                                        SMS Gönder
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        @if (TempData["success"]?.ToString() == "true")
+        {
+                @: showToast("İşlem başarılı", 'success');
+        }
+        else if (TempData["success"]?.ToString() == "false")
+        {
+                @: showToast("İşlem başarısız", 'danger');
+        }
+    });
+</script>

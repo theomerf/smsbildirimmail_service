@@ -1,0 +1,1254 @@
+2025-08-10 18:36:02.6690 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 18:36:14.9148 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 18:36:14.9358 INFO [Services.LoggerManager] Debug modu başlatılıyor... 
+2025-08-10 18:36:14.9483 INFO [Services.LoggerManager] NesService başlatılıyor... 
+2025-08-10 18:36:14.9833 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Start installing Hangfire SQL objects... 
+2025-08-10 18:36:15.3860 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Hangfire SQL objects installed. 
+2025-08-10 18:36:15.4100 INFO [Hangfire.BackgroundJobServer] Starting Hangfire Server using job storage: 'SQL Server: localhost@HangfireDb' 
+2025-08-10 18:36:15.4100 INFO [Hangfire.BackgroundJobServer] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+2025-08-10 18:36:15.4100 INFO [Hangfire.BackgroundJobServer] Using the following options for Hangfire Server:
+    Worker count: 40
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+2025-08-10 18:36:15.4913 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:5256b357 has started in 5,6052 ms 
+2025-08-10 18:36:15.4913 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.StopListening shutdown trigger initialized successfully. 
+2025-08-10 18:36:15.5193 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.ShutdownReason shutdown trigger initialized successfully. 
+2025-08-10 18:36:15.5193 DEBUG [Hangfire.Server.AspNetShutdownDetector] HttpRuntime._disposingHttpRuntime shutdown trigger initialized successfully. 
+2025-08-10 18:36:15.5243 INFO [Services.LoggerManager] Hangfire polling job başlatılıyor... 
+2025-08-10 18:36:15.6479 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:21460:f2f23e4f successfully announced in 125,8524 ms 
+2025-08-10 18:36:15.6549 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:56661613 has started in 3,9417 ms 
+2025-08-10 18:36:15.6549 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:21460:f2f23e4f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+2025-08-10 18:36:15.6549 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:8249a311 has started in 2,5574 ms 
+2025-08-10 18:36:15.6549 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:6a1edc09 has started in 3,5395 ms 
+2025-08-10 18:36:15.6679 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:ebc657ce has started in 3,4154 ms 
+2025-08-10 18:36:15.6679 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:45456a11 has started in 4,4517 ms 
+2025-08-10 18:36:15.6679 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:f71369d1 has started in 3,5703 ms 
+2025-08-10 18:36:15.6679 DEBUG [Hangfire.SqlServer.CountersAggregator] Aggregating records in 'Counter' table... 
+2025-08-10 18:36:15.6679 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'AggregatedCounter' table... 
+2025-08-10 18:36:15.7359 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:3e435063 has started in 62,0822 ms 
+2025-08-10 18:36:15.7359 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5f32893c has started in 62,0713 ms 
+2025-08-10 18:36:15.7614 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:cdeb72ca has started in 88,121 ms 
+2025-08-10 18:36:15.7614 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8b11930f has started in 92,3745 ms 
+2025-08-10 18:36:15.7614 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:98cbdd01 has started in 94,3704 ms 
+2025-08-10 18:36:15.7744 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2b7d3404 has started in 101,299 ms 
+2025-08-10 18:36:15.8084 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ae0ddead has started in 134,9418 ms 
+2025-08-10 18:36:15.8395 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e80ee351 has started in 165,4882 ms 
+2025-08-10 18:36:15.8695 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:460c991f has started in 196,2271 ms 
+2025-08-10 18:36:15.8995 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9ef1282c has started in 225,9017 ms 
+2025-08-10 18:36:15.8995 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:838f97e7 has started in 225,9206 ms 
+2025-08-10 18:36:15.8995 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:586bdfca has started in 227,0427 ms 
+2025-08-10 18:36:15.9305 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:eefcbc42 has started in 257,1266 ms 
+2025-08-10 18:36:15.9295 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:18a6f850 has started in 256,5059 ms 
+2025-08-10 18:36:15.9587 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:19327c86 has started in 285,2067 ms 
+2025-08-10 18:36:15.9295 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1ab818cb has started in 255,6667 ms 
+2025-08-10 18:36:15.9907 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d1a1eeab has started in 317,4632 ms 
+2025-08-10 18:36:16.0207 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:3105784d has started in 347,3824 ms 
+2025-08-10 18:36:16.0207 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Job' table... 
+2025-08-10 18:36:16.0522 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:387cd564 has started in 378,353 ms 
+2025-08-10 18:36:16.0822 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6f8b0885 has started in 409,0958 ms 
+2025-08-10 18:36:16.1136 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d3b1e807 has started in 440,0485 ms 
+2025-08-10 18:36:16.1441 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ee2827b8 has started in 470,5098 ms 
+2025-08-10 18:36:16.1441 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ff522c34 has started in 470,5034 ms 
+2025-08-10 18:36:16.1771 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:74a77d3b has started in 503,4282 ms 
+2025-08-10 18:36:16.1961 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'List' table... 
+2025-08-10 18:36:16.1961 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:86fa62cc has started in 528,8594 ms 
+2025-08-10 18:36:16.1961 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b65a1e5f has started in 536,3849 ms 
+2025-08-10 18:36:16.2196 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a8545119 has started in 545,8286 ms 
+2025-08-10 18:36:16.2196 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:349327a0 has started in 549,207 ms 
+2025-08-10 18:36:16.2511 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0c3895c0 has started in 578,2446 ms 
+2025-08-10 18:36:16.2511 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Set' table... 
+2025-08-10 18:36:16.2821 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e4494674 has started in 608,8284 ms 
+2025-08-10 18:36:16.3141 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:51312f58 has started in 640,9046 ms 
+2025-08-10 18:36:16.3446 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:fff5f186 has started in 671,5132 ms 
+2025-08-10 18:36:16.3766 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:26527d47 has started in 703,1855 ms 
+2025-08-10 18:36:16.3766 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Hash' table... 
+2025-08-10 18:36:16.4066 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:094664a5 has started in 733,1691 ms 
+2025-08-10 18:36:16.4391 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a364cf8c has started in 765,2355 ms 
+2025-08-10 18:36:16.4701 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1c8cc7cd has started in 796,1012 ms 
+2025-08-10 18:36:16.4991 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7ea8ab02 has started in 825,7463 ms 
+2025-08-10 18:36:16.5111 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1a1ca6d5 has started in 837,4532 ms 
+2025-08-10 18:36:16.5441 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a9c5a96d has started in 870,6408 ms 
+2025-08-10 18:36:16.5441 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8e2ba691 has started in 870,6935 ms 
+2025-08-10 18:36:16.5846 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:bf7d8194 has started in 39,5952 ms 
+2025-08-10 18:36:16.5876 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:21460:f2f23e4f all the dispatchers started 
+2025-08-10 18:36:16.5876 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop RecurringJobScheduler:14edc158 has started in 5,4707 ms 
+2025-08-10 18:36:16.6431 INFO [Services.LoggerManager] Hangfire polling job başlatıldı! 
+2025-08-10 18:36:16.6431 INFO [Services.LoggerManager] NesService başarıyla başlatıldı. 
+2025-08-10 18:36:16.6431 INFO [Services.LoggerManager] Debug modu başlatıldı. Hangfire dashboard üzerinden job'ları kontrol edebilirsiniz... 
+2025-08-10 18:36:16.6501 INFO [Services.LoggerManager] NesService durduruluyor... 
+2025-08-10 18:36:16.6501 INFO [Services.LoggerManager] Polling watcher durduruluyor... 
+2025-08-10 18:36:16.6501 INFO [Services.LoggerManager] Polling watcher durduruldu! 
+2025-08-10 18:36:16.6501 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:21460:f2f23e4f caught stopping signal... 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a9c5a96d stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1a1ca6d5 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a364cf8c stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1c8cc7cd stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:838f97e7 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ae0ddead stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:460c991f stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:86fa62cc stopped in 0 ms 
+2025-08-10 18:36:16.6671 WARN [Hangfire.Server.Worker] Worker stop requested while processing background job '2'. It will be re-queued. 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b65a1e5f stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:349327a0 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0c3895c0 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8e2ba691 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:26527d47 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:74a77d3b stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:fff5f186 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9ef1282c stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:eefcbc42 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:19327c86 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:387cd564 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d3b1e807 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:586bdfca stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:ebc657ce stopped in 0 ms 
+2025-08-10 18:36:16.6881 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:3e435063 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ee2827b8 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:18a6f850 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:51312f58 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:3105784d stopped in 0 ms 
+2025-08-10 18:36:16.6881 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5f32893c stopped in 0 ms 
+2025-08-10 18:36:16.6881 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8b11930f stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6f8b0885 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ff522c34 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a8545119 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e4494674 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:cdeb72ca stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d1a1eeab stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1ab818cb stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:094664a5 stopped in 0 ms 
+2025-08-10 18:36:16.6671 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7ea8ab02 stopped in 0 ms 
+2025-08-10 18:36:16.7101 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e80ee351 stopped in 0,1217 ms 
+2025-08-10 18:36:16.7101 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:98cbdd01 stopped in 0,7659 ms 
+2025-08-10 18:36:16.7101 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:6a1edc09 stopped in 0,7301 ms 
+2025-08-10 18:36:16.7101 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:f71369d1 stopped in 0,2345 ms 
+2025-08-10 18:36:16.7101 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:8249a311 stopped in 0,7464 ms 
+2025-08-10 18:36:16.7101 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop RecurringJobScheduler:14edc158 stopped in 0,7724 ms 
+2025-08-10 18:36:16.7101 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:bf7d8194 stopped in 0,7863 ms 
+2025-08-10 18:36:16.7101 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:45456a11 stopped in 0,2338 ms 
+2025-08-10 18:36:16.9061 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2b7d3404 stopped in 196,2802 ms 
+2025-08-10 18:36:16.9641 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:21460:f2f23e4f All dispatchers stopped 
+2025-08-10 18:36:16.9641 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:56661613 stopped in 0,3987 ms 
+2025-08-10 18:36:16.9641 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:21460:f2f23e4f successfully reported itself as stopped in 4,3708 ms 
+2025-08-10 18:36:16.9641 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:21460:f2f23e4f has been stopped in total 264,1483 ms 
+2025-08-10 18:36:16.9641 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:5256b357 stopped in 319,6925 ms 
+2025-08-10 18:36:16.9771 INFO [Services.LoggerManager] NesService başarıyla durduruldu. 
+2025-08-10 18:39:03.3537 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 18:39:03.3807 INFO [Services.LoggerManager] Debug modu başlatılıyor... 
+2025-08-10 18:39:03.3917 INFO [Services.LoggerManager] NesService başlatılıyor... 
+2025-08-10 18:39:03.4261 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Start installing Hangfire SQL objects... 
+2025-08-10 18:39:03.8368 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Hangfire SQL objects installed. 
+2025-08-10 18:39:03.8630 INFO [Hangfire.BackgroundJobServer] Starting Hangfire Server using job storage: 'SQL Server: localhost@HangfireDb' 
+2025-08-10 18:39:03.8630 INFO [Hangfire.BackgroundJobServer] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+2025-08-10 18:39:03.8630 INFO [Hangfire.BackgroundJobServer] Using the following options for Hangfire Server:
+    Worker count: 40
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+2025-08-10 18:39:03.8910 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:72035536 has started in 6,8129 ms 
+2025-08-10 18:39:03.8910 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.StopListening shutdown trigger initialized successfully. 
+2025-08-10 18:39:03.8910 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.ShutdownReason shutdown trigger initialized successfully. 
+2025-08-10 18:39:03.8910 DEBUG [Hangfire.Server.AspNetShutdownDetector] HttpRuntime._disposingHttpRuntime shutdown trigger initialized successfully. 
+2025-08-10 18:39:10.2820 INFO [Services.LoggerManager] Hangfire polling job başlatılıyor... 
+2025-08-10 18:39:12.7256 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:21768:bed7a052 successfully announced in 8826,6231 ms 
+2025-08-10 18:39:12.7320 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:e2ce2e12 has started in 3,0393 ms 
+2025-08-10 18:39:12.7320 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:21768:bed7a052 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+2025-08-10 18:39:12.7320 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:88246de8 has started in 1,9116 ms 
+2025-08-10 18:39:12.7320 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:22ff1530 has started in 2,655 ms 
+2025-08-10 18:39:12.7425 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:e7566df9 has started in 3,4808 ms 
+2025-08-10 18:39:12.7425 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:d8c90c5e has started in 4,547 ms 
+2025-08-10 18:39:12.7425 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:74af24fd has started in 3,7288 ms 
+2025-08-10 18:39:12.7425 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'AggregatedCounter' table... 
+2025-08-10 18:39:12.7425 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:24020f68 has started in 4,1776 ms 
+2025-08-10 18:39:12.7425 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:568ebaa6 has started in 6,6182 ms 
+2025-08-10 18:39:12.7995 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4b51f9d9 has started in 52,7281 ms 
+2025-08-10 18:39:12.7995 DEBUG [Hangfire.SqlServer.CountersAggregator] Aggregating records in 'Counter' table... 
+2025-08-10 18:39:12.8391 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b7d71b0d has started in 92,3745 ms 
+2025-08-10 18:39:12.8527 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1bf52e68 has started in 105,5093 ms 
+2025-08-10 18:39:12.8841 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5fb0cde5 has started in 136,9274 ms 
+2025-08-10 18:39:12.8841 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7c4ec8c0 has started in 136,9327 ms 
+2025-08-10 18:39:12.9164 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0f805114 has started in 169,1087 ms 
+2025-08-10 18:39:12.9770 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:58626998 has started in 229,9085 ms 
+2025-08-10 18:39:12.9446 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d14b9e04 has started in 197,7509 ms 
+2025-08-10 18:39:13.0081 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:84abe4eb has started in 261,5611 ms 
+2025-08-10 18:39:13.0081 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Job' table... 
+2025-08-10 18:39:13.0376 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1156c3a8 has started in 290,8186 ms 
+2025-08-10 18:39:13.0701 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9daeda3e has started in 322,9755 ms 
+2025-08-10 18:39:13.1031 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a52eedd3 has started in 356,4561 ms 
+2025-08-10 18:39:13.1318 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9a7ea4d0 has started in 384,6728 ms 
+2025-08-10 18:39:13.1318 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f7251c64 has started in 384,6567 ms 
+2025-08-10 18:39:13.1625 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:518ac72c has started in 415,1698 ms 
+2025-08-10 18:39:13.1958 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:443a86c1 has started in 448,7625 ms 
+2025-08-10 18:39:13.2238 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'List' table... 
+2025-08-10 18:39:13.2238 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c91a2b7c has started in 477,3127 ms 
+2025-08-10 18:39:13.2558 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:cb444b14 has started in 509,2459 ms 
+2025-08-10 18:39:13.2878 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:13bfc921 has started in 540,3074 ms 
+2025-08-10 18:39:13.2878 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:acb8f1af has started in 540,6656 ms 
+2025-08-10 18:39:13.3162 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1396379b has started in 569,6461 ms 
+2025-08-10 18:39:13.3469 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4b630f09 has started in 599,6705 ms 
+2025-08-10 18:39:13.3666 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:708fc5fa has started in 619,3917 ms 
+2025-08-10 18:39:13.3701 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Set' table... 
+2025-08-10 18:39:13.3701 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:35b5e275 has started in 623,2827 ms 
+2025-08-10 18:39:13.4087 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:59e8feea has started in 661,3457 ms 
+2025-08-10 18:39:13.4087 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4bc78135 has started in 661,3675 ms 
+2025-08-10 18:39:13.4384 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:269c10a5 has started in 691,5885 ms 
+2025-08-10 18:39:13.4087 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0dcfee72 has started in 661,3872 ms 
+2025-08-10 18:39:13.4517 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:79db6dd1 has started in 704,5447 ms 
+2025-08-10 18:39:13.4517 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Hash' table... 
+2025-08-10 18:39:13.4847 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:eff3f113 has started in 737,6313 ms 
+2025-08-10 18:39:13.4847 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:fa4e9a00 has started in 737,884 ms 
+2025-08-10 18:39:13.4847 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:975f5cb6 has started in 737,5458 ms 
+2025-08-10 18:39:13.5138 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0772db35 has started in 766,7033 ms 
+2025-08-10 18:39:13.5448 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8117e9d4 has started in 797,3741 ms 
+2025-08-10 18:39:13.5752 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ed9805b3 has started in 828,237 ms 
+2025-08-10 18:39:13.6078 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:61afba83 has started in 860,9294 ms 
+2025-08-10 18:39:13.6392 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:03cd15c1 has started in 892,675 ms 
+2025-08-10 18:39:13.6818 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ad54d8c7 has started in 935,1359 ms 
+2025-08-10 18:39:13.7237 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:bde3aecb has started in 7,8291 ms 
+2025-08-10 18:39:13.7237 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:21768:bed7a052 all the dispatchers started 
+2025-08-10 18:39:13.7606 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop RecurringJobScheduler:4a38e769 has started in 36,1804 ms 
+2025-08-10 18:39:18.3135 INFO [Services.LoggerManager] Hangfire polling job başlatıldı! 
+2025-08-10 18:39:23.1667 INFO [Services.LoggerManager] NesService başarıyla başlatıldı. 
+2025-08-10 18:39:26.4366 INFO [Services.LoggerManager] Debug modu başlatıldı. Hangfire dashboard üzerinden job'ları kontrol edebilirsiniz... 
+2025-08-10 18:39:26.9173 INFO [Services.LoggerManager] NesService durduruluyor... 
+2025-08-10 18:39:26.9173 INFO [Services.LoggerManager] Polling watcher durduruluyor... 
+2025-08-10 18:39:26.9173 INFO [Services.LoggerManager] Polling watcher durduruldu! 
+2025-08-10 18:39:26.9173 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:21768:bed7a052 caught stopping signal... 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ad54d8c7 stopped in 0 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5fb0cde5 stopped in 0 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9a7ea4d0 stopped in 0 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:518ac72c stopped in 2,6012 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:443a86c1 stopped in 7,4571 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:269c10a5 stopped in 3,4729 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0dcfee72 stopped in 3,1836 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:59e8feea stopped in 7,7647 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:79db6dd1 stopped in 12,2597 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:fa4e9a00 stopped in 5,2894 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7c4ec8c0 stopped in 0,5535 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0f805114 stopped in 0,5708 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d14b9e04 stopped in 5,8317 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:58626998 stopped in 6,022 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:acb8f1af stopped in 2,1492 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:eff3f113 stopped in 12,5899 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:13bfc921 stopped in 0,857 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1156c3a8 stopped in 12,4575 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4b630f09 stopped in 2,8547 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:708fc5fa stopped in 3,0618 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ed9805b3 stopped in 0 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:61afba83 stopped in 0 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b7d71b0d stopped in 0,0244 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:35b5e275 stopped in 3,102 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:84abe4eb stopped in 2,3354 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c91a2b7c stopped in 7,2734 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:cb444b14 stopped in 9,0594 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0772db35 stopped in 5,3475 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4bc78135 stopped in 3,1528 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9daeda3e stopped in 5,4025 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a52eedd3 stopped in 6,5972 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:03cd15c1 stopped in 0 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8117e9d4 stopped in 7,6696 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:975f5cb6 stopped in 0 ms 
+2025-08-10 18:39:26.9463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f7251c64 stopped in 12,8542 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1396379b stopped in 2,3141 ms 
+2025-08-10 18:39:26.9858 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:22ff1530 stopped in 44,2083 ms 
+2025-08-10 18:39:26.9858 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop RecurringJobScheduler:4a38e769 stopped in 44,2158 ms 
+2025-08-10 18:39:26.9403 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1bf52e68 stopped in 0 ms 
+2025-08-10 18:39:26.9858 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:74af24fd stopped in 44,3631 ms 
+2025-08-10 18:39:26.9858 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:88246de8 stopped in 44,2093 ms 
+2025-08-10 18:39:26.9858 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:d8c90c5e stopped in 44,2212 ms 
+2025-08-10 18:39:26.9718 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4b51f9d9 stopped in 30,4293 ms 
+2025-08-10 18:39:26.9858 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:bde3aecb stopped in 44,2074 ms 
+2025-08-10 18:43:47.1661 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 18:43:47.1852 INFO [Services.LoggerManager] Debug modu başlatılıyor... 
+2025-08-10 18:43:47.1982 INFO [Services.LoggerManager] NesService başlatılıyor... 
+2025-08-10 18:43:47.2322 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Start installing Hangfire SQL objects... 
+2025-08-10 18:43:47.6285 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Hangfire SQL objects installed. 
+2025-08-10 18:43:47.6535 INFO [Hangfire.BackgroundJobServer] Starting Hangfire Server using job storage: 'SQL Server: localhost@HangfireDb' 
+2025-08-10 18:43:47.6535 INFO [Hangfire.BackgroundJobServer] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+2025-08-10 18:43:47.6535 INFO [Hangfire.BackgroundJobServer] Using the following options for Hangfire Server:
+    Worker count: 40
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+2025-08-10 18:43:47.6780 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:25483a4a has started in 5,8368 ms 
+2025-08-10 18:43:47.6780 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.StopListening shutdown trigger initialized successfully. 
+2025-08-10 18:43:47.7090 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.ShutdownReason shutdown trigger initialized successfully. 
+2025-08-10 18:43:47.7120 DEBUG [Hangfire.Server.AspNetShutdownDetector] HttpRuntime._disposingHttpRuntime shutdown trigger initialized successfully. 
+2025-08-10 18:44:00.3925 INFO [Services.LoggerManager] Hangfire polling job başlatılıyor... 
+2025-08-10 18:44:01.2439 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:3852:5ceb0c3f successfully announced in 13532,4878 ms 
+2025-08-10 18:44:01.2439 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:e1aac2c8 has started in 3,0519 ms 
+2025-08-10 18:44:01.2439 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:3852:5ceb0c3f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+2025-08-10 18:44:01.2802 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:6daf8240 has started in 2,3879 ms 
+2025-08-10 18:44:01.2802 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:0e19cccf has started in 3,0112 ms 
+2025-08-10 18:44:01.3096 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:922cb02c has started in 25,4793 ms 
+2025-08-10 18:44:01.3096 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:228ef91b has started in 2,6787 ms 
+2025-08-10 18:44:01.3212 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:98581401 has started in 8,962 ms 
+2025-08-10 18:44:01.3212 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'AggregatedCounter' table... 
+2025-08-10 18:44:01.3575 DEBUG [Hangfire.SqlServer.CountersAggregator] Aggregating records in 'Counter' table... 
+2025-08-10 18:44:01.3575 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c001ecc9 has started in 44,3351 ms 
+2025-08-10 18:44:01.3575 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c873f287 has started in 47,439 ms 
+2025-08-10 18:44:01.3866 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d3d0f331 has started in 72,5399 ms 
+2025-08-10 18:44:01.3866 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9c491d75 has started in 78,4203 ms 
+2025-08-10 18:44:01.3866 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Job' table... 
+2025-08-10 18:44:01.4338 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:544630dd has started in 119,3153 ms 
+2025-08-10 18:44:01.4338 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:07b7f534 has started in 119,5636 ms 
+2025-08-10 18:44:01.4338 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:689e5e35 has started in 119,3427 ms 
+2025-08-10 18:44:01.4338 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:77c67bad has started in 119,3769 ms 
+2025-08-10 18:44:01.4621 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:aad54bf4 has started in 147,4927 ms 
+2025-08-10 18:44:01.5230 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8afc8531 has started in 208,474 ms 
+2025-08-10 18:44:01.5552 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8ed428f5 has started in 239,8952 ms 
+2025-08-10 18:44:01.5542 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'List' table... 
+2025-08-10 18:44:01.4922 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:864c2b9e has started in 177,8605 ms 
+2025-08-10 18:44:01.5859 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:acf1f499 has started in 271,7585 ms 
+2025-08-10 18:44:01.6145 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6763a1a0 has started in 300,4994 ms 
+2025-08-10 18:44:01.6454 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:37ceff0b has started in 331,1249 ms 
+2025-08-10 18:44:01.6784 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2a42a7a0 has started in 364,1559 ms 
+2025-08-10 18:44:01.6784 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7b456e65 has started in 364,1559 ms 
+2025-08-10 18:44:01.7094 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:24b9423d has started in 394,3251 ms 
+2025-08-10 18:44:01.6784 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Set' table... 
+2025-08-10 18:44:01.7404 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d013a522 has started in 425,986 ms 
+2025-08-10 18:44:01.7716 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:32e7e79b has started in 456,4909 ms 
+2025-08-10 18:44:01.8012 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e69b9a7b has started in 487,1462 ms 
+2025-08-10 18:44:01.8239 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a99b62f5 has started in 509,2824 ms 
+2025-08-10 18:44:01.8629 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:12d4ab84 has started in 548,4261 ms 
+2025-08-10 18:44:01.8629 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:bc66ff08 has started in 548,4433 ms 
+2025-08-10 18:44:01.8954 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a4633771 has started in 580,7931 ms 
+2025-08-10 18:44:01.9270 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7deaff81 has started in 611,7726 ms 
+2025-08-10 18:44:01.9270 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Hash' table... 
+2025-08-10 18:44:01.9548 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:22cd359d has started in 640,4489 ms 
+2025-08-10 18:44:01.9852 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:19c37c96 has started in 670,6651 ms 
+2025-08-10 18:44:02.0170 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0635edfd has started in 702,125 ms 
+2025-08-10 18:44:02.0483 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:fb77ba22 has started in 733,6086 ms 
+2025-08-10 18:44:02.0483 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e63a7875 has started in 733,8638 ms 
+2025-08-10 18:44:02.0782 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9ff5d588 has started in 763,598 ms 
+2025-08-10 18:44:02.0483 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7c0e68ef has started in 733,7459 ms 
+2025-08-10 18:44:02.1239 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:fba59f73 has started in 809,6007 ms 
+2025-08-10 18:44:02.1691 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ef49f62f has started in 854,5369 ms 
+2025-08-10 18:44:02.2020 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f77682ff has started in 888,3193 ms 
+2025-08-10 18:44:02.2309 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e3b260aa has started in 916,031 ms 
+2025-08-10 18:44:02.2608 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:99f81d1b has started in 946,068 ms 
+2025-08-10 18:44:02.2925 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4e0d882a has started in 978,2796 ms 
+2025-08-10 18:44:02.3313 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1736f619 has started in 1016,9475 ms 
+2025-08-10 18:44:02.3437 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:d0a0d106 has started in 12,3488 ms 
+2025-08-10 18:44:02.3437 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:3852:5ceb0c3f all the dispatchers started 
+2025-08-10 18:44:02.3437 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop RecurringJobScheduler:34763144 has started in 6,8146 ms 
+2025-08-10 18:44:07.1698 INFO [Services.LoggerManager] Hangfire polling job başlatıldı! 
+2025-08-10 18:44:13.4191 INFO [Services.LoggerManager] NesService başarıyla başlatıldı. 
+2025-08-10 18:44:24.6890 INFO [Services.LoggerManager] Debug modu başlatıldı. Hangfire dashboard üzerinden job'ları kontrol edebilirsiniz... 
+2025-08-10 18:44:25.4704 INFO [Services.LoggerManager] NesService durduruluyor... 
+2025-08-10 18:44:25.4704 INFO [Services.LoggerManager] Polling watcher durduruluyor... 
+2025-08-10 18:44:25.4769 INFO [Services.LoggerManager] Polling watcher durduruldu! 
+2025-08-10 18:44:25.4769 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:3852:5ceb0c3f caught stopping signal... 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1736f619 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e3b260aa stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9ff5d588 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:864c2b9e stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4e0d882a stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8afc8531 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a4633771 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:bc66ff08 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:22cd359d stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:fb77ba22 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:19c37c96 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0635edfd stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c873f287 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e63a7875 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7c0e68ef stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6763a1a0 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:07b7f534 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:aad54bf4 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:99f81d1b stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7b456e65 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a99b62f5 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9c491d75 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7deaff81 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8ed428f5 stopped in 0 ms 
+2025-08-10 18:44:25.5084 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:acf1f499 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:689e5e35 stopped in 0 ms 
+2025-08-10 18:44:25.5084 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d013a522 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2a42a7a0 stopped in 0 ms 
+2025-08-10 18:44:25.5084 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ef49f62f stopped in 0 ms 
+2025-08-10 18:44:25.5084 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:32e7e79b stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:fba59f73 stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:37ceff0b stopped in 0 ms 
+2025-08-10 18:44:25.5084 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f77682ff stopped in 0 ms 
+2025-08-10 18:44:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e69b9a7b stopped in 0 ms 
+2025-08-10 18:44:25.5284 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d3d0f331 stopped in 0,0148 ms 
+2025-08-10 18:44:25.5284 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:544630dd stopped in 0,0536 ms 
+2025-08-10 18:44:25.5454 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop RecurringJobScheduler:34763144 stopped in 17,0257 ms 
+2025-08-10 18:44:25.5454 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:228ef91b stopped in 17,0518 ms 
+2025-08-10 18:44:25.5454 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:d0a0d106 stopped in 17,0422 ms 
+2025-08-10 18:44:25.5454 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:24b9423d stopped in 17,0609 ms 
+2025-08-10 18:44:25.5454 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:0e19cccf stopped in 17,1864 ms 
+2025-08-10 18:44:25.5454 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:6daf8240 stopped in 17,0757 ms 
+2025-08-10 18:44:25.5454 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:98581401 stopped in 17,3167 ms 
+2025-08-10 18:44:25.6898 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:922cb02c stopped in 161,4346 ms 
+2025-08-10 18:44:25.7888 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 18:44:36.3235 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:3852:5ceb0c3f caught stopped signal... 
+2025-08-10 18:44:36.8821 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:3852:5ceb0c3f heartbeat successfully sent 
+2025-08-10 18:44:39.0341 DEBUG [Services.LoggerManager] Polling döngüsü zaten çalışıyor, atlanıyor. 
+2025-08-10 18:44:41.6296 DEBUG [Services.LoggerManager] Polling döngüsü zaten çalışıyor, atlanıyor. 
+2025-08-10 18:44:45.4230 INFO [Services.LoggerManager] Polling durduruldu, döngü sonlandırılıyor. 
+2025-08-10 18:44:47.3624 WARN [Hangfire.Server.BackgroundServerProcess] Server theomerf:3852:5ceb0c3f caught shutdown signal... 
+2025-08-10 18:44:51.4740 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:e1aac2c8 stopped in 2440,0966 ms 
+2025-08-10 18:44:51.4740 WARN [Hangfire.Server.BackgroundServerProcess] Server theomerf:3852:5ceb0c3f stopped non-gracefully due to Worker. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods. 
+2025-08-10 18:44:51.4800 WARN [Hangfire.Server.Worker] Worker stop requested while processing background job '3'. It will be re-queued. 
+2025-08-10 18:44:51.5261 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:3852:5ceb0c3f successfully reported itself as stopped in 18,4727 ms 
+2025-08-10 18:44:51.5261 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:3852:5ceb0c3f has been stopped in total 25989,4348 ms 
+2025-08-10 18:44:51.5261 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:77c67bad stopped in 26002,2691 ms 
+2025-08-10 18:44:51.5261 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:25483a4a stopped in 26049,5744 ms 
+2025-08-10 18:44:51.5261 INFO [Services.LoggerManager] NesService başarıyla durduruldu. 
+2025-08-10 18:44:55.3067 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c001ecc9 stopped in 29778,4137 ms 
+2025-08-10 18:45:43.3237 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 18:45:43.3447 INFO [Services.LoggerManager] Debug modu başlatılıyor... 
+2025-08-10 18:45:43.3547 INFO [Services.LoggerManager] NesService başlatılıyor... 
+2025-08-10 18:45:43.3917 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Start installing Hangfire SQL objects... 
+2025-08-10 18:45:43.7169 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Hangfire SQL objects installed. 
+2025-08-10 18:45:43.7405 INFO [Hangfire.BackgroundJobServer] Starting Hangfire Server using job storage: 'SQL Server: localhost@HangfireDb' 
+2025-08-10 18:45:43.7405 INFO [Hangfire.BackgroundJobServer] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+2025-08-10 18:45:43.7405 INFO [Hangfire.BackgroundJobServer] Using the following options for Hangfire Server:
+    Worker count: 40
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+2025-08-10 18:45:43.7655 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:9f0a66d5 has started in 5,3753 ms 
+2025-08-10 18:45:43.7655 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.StopListening shutdown trigger initialized successfully. 
+2025-08-10 18:45:43.7655 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.ShutdownReason shutdown trigger initialized successfully. 
+2025-08-10 18:45:43.7655 DEBUG [Hangfire.Server.AspNetShutdownDetector] HttpRuntime._disposingHttpRuntime shutdown trigger initialized successfully. 
+2025-08-10 18:45:47.3602 INFO [Services.LoggerManager] Hangfire polling job başlatılıyor... 
+2025-08-10 18:45:47.4518 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:3408:adf62fb9 successfully announced in 3679,3058 ms 
+2025-08-10 18:45:47.4518 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:57c1c826 has started in 3,0391 ms 
+2025-08-10 18:45:47.4518 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:3408:adf62fb9 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+2025-08-10 18:45:47.4948 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:c1f1bea5 has started in 3,3153 ms 
+2025-08-10 18:45:47.4948 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:72a79572 has started in 5,8788 ms 
+2025-08-10 18:45:47.4948 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:7e707746 has started in 5,648 ms 
+2025-08-10 18:45:47.4948 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:249027d0 has started in 5,3075 ms 
+2025-08-10 18:45:47.4948 INFO [Hangfire.Server.ServerWatchdog] 1 servers were removed due to timeout 
+2025-08-10 18:45:47.5154 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:01454738 has started in 8,3772 ms 
+2025-08-10 18:45:47.5154 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'AggregatedCounter' table... 
+2025-08-10 18:45:47.5544 DEBUG [Hangfire.SqlServer.CountersAggregator] Aggregating records in 'Counter' table... 
+2025-08-10 18:45:47.5554 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a23837b3 has started in 44,9038 ms 
+2025-08-10 18:45:47.5554 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:317efc04 has started in 52,3159 ms 
+2025-08-10 18:45:47.5554 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Job' table... 
+2025-08-10 18:45:47.5554 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8b573d52 has started in 55,1228 ms 
+2025-08-10 18:45:47.6004 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6901a652 has started in 89,47 ms 
+2025-08-10 18:45:47.6004 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e5390e61 has started in 89,6742 ms 
+2025-08-10 18:45:47.6004 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c1868040 has started in 89,877 ms 
+2025-08-10 18:45:47.6307 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0a71f157 has started in 120,4795 ms 
+2025-08-10 18:45:47.6627 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d6a2e328 has started in 151,7452 ms 
+2025-08-10 18:45:47.6627 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'List' table... 
+2025-08-10 18:45:47.6938 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:914e2d03 has started in 182,5044 ms 
+2025-08-10 18:45:47.7253 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:40bfcade has started in 214,4292 ms 
+2025-08-10 18:45:47.7563 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:3891a317 has started in 245,6931 ms 
+2025-08-10 18:45:47.7883 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b1844bfb has started in 277,2061 ms 
+2025-08-10 18:45:47.8113 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Set' table... 
+2025-08-10 18:45:47.8113 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:029ffe63 has started in 303,1506 ms 
+2025-08-10 18:45:47.8478 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f4640253 has started in 337,1753 ms 
+2025-08-10 18:45:47.8478 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a06478de has started in 337,3763 ms 
+2025-08-10 18:45:47.8798 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:784dd5cd has started in 368,5559 ms 
+2025-08-10 18:45:47.8798 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Hash' table... 
+2025-08-10 18:45:47.9098 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:48425368 has started in 398,889 ms 
+2025-08-10 18:45:47.9423 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e16ec8bd has started in 431,1291 ms 
+2025-08-10 18:45:47.9423 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:410f8747 has started in 431,131 ms 
+2025-08-10 18:45:47.9754 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7c899b92 has started in 465,0202 ms 
+2025-08-10 18:45:48.0064 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:650c7f52 has started in 495,6469 ms 
+2025-08-10 18:45:48.0359 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:41ae0067 has started in 525,0279 ms 
+2025-08-10 18:45:48.0679 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7081ff11 has started in 557,3982 ms 
+2025-08-10 18:45:48.1155 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d0fc790d has started in 604,3487 ms 
+2025-08-10 18:45:48.1595 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ba276e82 has started in 649,0929 ms 
+2025-08-10 18:45:48.1595 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ca0bc3e7 has started in 649,3676 ms 
+2025-08-10 18:45:48.2035 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c55a4886 has started in 691,8666 ms 
+2025-08-10 18:45:48.2370 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:305e08b8 has started in 725,7544 ms 
+2025-08-10 18:45:48.2890 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7a875025 has started in 778,6555 ms 
+2025-08-10 18:45:48.2980 INFO [Services.LoggerManager] Hangfire polling job başlatıldı! 
+2025-08-10 18:45:48.2980 INFO [Services.LoggerManager] NesService başarıyla başlatıldı. 
+2025-08-10 18:45:48.3060 INFO [Services.LoggerManager] Debug modu başlatıldı. Hangfire dashboard üzerinden job'ları kontrol edebilirsiniz... 
+2025-08-10 18:45:48.3060 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f85ed597 has started in 804,1256 ms 
+2025-08-10 18:45:48.3342 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:19a0d89e has started in 823,2325 ms 
+2025-08-10 18:45:48.3372 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:70d45bd6 has started in 826,4929 ms 
+2025-08-10 18:45:48.3720 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ef049e44 has started in 860,9861 ms 
+2025-08-10 18:45:48.4026 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e60adc49 has started in 891,6765 ms 
+2025-08-10 18:45:48.4342 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:53d481fd has started in 923,3042 ms 
+2025-08-10 18:45:48.4652 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ca99d9c3 has started in 954,7746 ms 
+2025-08-10 18:45:48.4962 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b710723c has started in 984,9753 ms 
+2025-08-10 18:45:48.5267 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1f2767f9 has started in 1015,6637 ms 
+2025-08-10 18:45:48.5597 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a82d8f1a has started in 1048,6976 ms 
+2025-08-10 18:45:48.5887 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5ae42277 has started in 1077,9694 ms 
+2025-08-10 18:46:01.3576 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 18:46:01.3796 INFO [Services.LoggerManager] Debug modu başlatılıyor... 
+2025-08-10 18:46:01.3916 INFO [Services.LoggerManager] NesService başlatılıyor... 
+2025-08-10 18:46:01.4256 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Start installing Hangfire SQL objects... 
+2025-08-10 18:46:01.8662 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Hangfire SQL objects installed. 
+2025-08-10 18:46:01.8982 INFO [Hangfire.BackgroundJobServer] Starting Hangfire Server using job storage: 'SQL Server: localhost@HangfireDb' 
+2025-08-10 18:46:01.9002 INFO [Hangfire.BackgroundJobServer] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+2025-08-10 18:46:01.9002 INFO [Hangfire.BackgroundJobServer] Using the following options for Hangfire Server:
+    Worker count: 40
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+2025-08-10 18:46:01.9551 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:79cf3454 has started in 4,891 ms 
+2025-08-10 18:46:01.9551 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.StopListening shutdown trigger initialized successfully. 
+2025-08-10 18:46:01.9821 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.ShutdownReason shutdown trigger initialized successfully. 
+2025-08-10 18:46:01.9821 DEBUG [Hangfire.Server.AspNetShutdownDetector] HttpRuntime._disposingHttpRuntime shutdown trigger initialized successfully. 
+2025-08-10 18:46:01.9821 INFO [Services.LoggerManager] Hangfire polling job başlatılıyor... 
+2025-08-10 18:46:02.0781 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:22696:008e2038 successfully announced in 92,67 ms 
+2025-08-10 18:46:02.0781 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:2b098114 has started in 4,1399 ms 
+2025-08-10 18:46:02.0781 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:22696:008e2038 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+2025-08-10 18:46:02.1221 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:86671b17 has started in 2,7206 ms 
+2025-08-10 18:46:02.1221 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:e728fb4d has started in 2,7603 ms 
+2025-08-10 18:46:02.1221 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:955b79c0 has started in 4,4002 ms 
+2025-08-10 18:46:02.1221 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:6c94936b has started in 2,6147 ms 
+2025-08-10 18:46:02.1362 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:0311266e has started in 3,276 ms 
+2025-08-10 18:46:02.1362 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'AggregatedCounter' table... 
+2025-08-10 18:46:02.1362 DEBUG [Hangfire.SqlServer.CountersAggregator] Aggregating records in 'Counter' table... 
+2025-08-10 18:46:02.1362 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:71925850 has started in 10,5857 ms 
+2025-08-10 18:46:02.1632 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:29b99408 has started in 26,6937 ms 
+2025-08-10 18:46:02.1962 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:142c4cfc has started in 59,881 ms 
+2025-08-10 18:46:02.1962 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1507f4f6 has started in 59,8936 ms 
+2025-08-10 18:46:02.1962 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6ed0b9d0 has started in 60,0427 ms 
+2025-08-10 18:46:02.1962 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Job' table... 
+2025-08-10 18:46:02.1962 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1840d8dc has started in 60,03 ms 
+2025-08-10 18:46:02.2272 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f0c86e40 has started in 91,3905 ms 
+2025-08-10 18:46:02.2577 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2f61db41 has started in 121,4311 ms 
+2025-08-10 18:46:02.2577 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5670a877 has started in 121,8698 ms 
+2025-08-10 18:46:02.2902 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5e32499d has started in 153,6567 ms 
+2025-08-10 18:46:02.2272 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:dd53f7f3 has started in 91,1996 ms 
+2025-08-10 18:46:02.3182 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:140fc380 has started in 182,4872 ms 
+2025-08-10 18:46:02.2272 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:803087e6 has started in 91,3219 ms 
+2025-08-10 18:46:02.3498 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:52e58ae9 has started in 214,2371 ms 
+2025-08-10 18:46:02.3803 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b2694926 has started in 243,6125 ms 
+2025-08-10 18:46:02.4114 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c79e9bd0 has started in 274,7 ms 
+2025-08-10 18:46:02.4114 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:38135c12 has started in 275,2567 ms 
+2025-08-10 18:46:02.4424 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:71eb9354 has started in 306,2166 ms 
+2025-08-10 18:46:02.4704 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:01dba593 has started in 334,6195 ms 
+2025-08-10 18:46:02.5014 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7a77bb1c has started in 364,92 ms 
+2025-08-10 18:46:02.5014 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'List' table... 
+2025-08-10 18:46:02.5304 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:aa26fc48 has started in 394,5851 ms 
+2025-08-10 18:46:02.5625 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ba5d72f6 has started in 426,5407 ms 
+2025-08-10 18:46:02.5855 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:636621e5 has started in 449,5185 ms 
+2025-08-10 18:46:02.5865 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Set' table... 
+2025-08-10 18:46:02.5865 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0291257e has started in 452,5019 ms 
+2025-08-10 18:46:02.6246 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:52a5b0e6 has started in 488,649 ms 
+2025-08-10 18:46:02.6246 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d8047d1d has started in 488,6496 ms 
+2025-08-10 18:46:02.6551 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a46fc9b9 has started in 519,3346 ms 
+2025-08-10 18:46:02.6866 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:aee699cd has started in 550,5726 ms 
+2025-08-10 18:46:02.6866 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Hash' table... 
+2025-08-10 18:46:02.7186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1592c96f has started in 582,4309 ms 
+2025-08-10 18:46:02.7487 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6ed40384 has started in 612,5508 ms 
+2025-08-10 18:46:02.7797 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:100df0a5 has started in 643,8384 ms 
+2025-08-10 18:46:02.8107 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:61a5fb8c has started in 674,3865 ms 
+2025-08-10 18:46:02.8405 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:85767d07 has started in 704,5428 ms 
+2025-08-10 18:46:02.8715 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e6a80e45 has started in 735,4826 ms 
+2025-08-10 18:46:02.9022 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:55547bb7 has started in 766,6047 ms 
+2025-08-10 18:46:02.9363 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9ff10c91 has started in 799,258 ms 
+2025-08-10 18:46:02.9615 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:60ddfcf0 has started in 825,5191 ms 
+2025-08-10 18:46:02.9615 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f919d8a4 has started in 833,7378 ms 
+2025-08-10 18:46:02.9615 INFO [Services.LoggerManager] Hangfire polling job başlatıldı! 
+2025-08-10 18:46:02.9615 INFO [Services.LoggerManager] NesService başarıyla başlatıldı. 
+2025-08-10 18:46:02.9775 INFO [Services.LoggerManager] Debug modu başlatıldı. Hangfire dashboard üzerinden job'ları kontrol edebilirsiniz... 
+2025-08-10 18:46:02.9775 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5dc09412 has started in 851,6312 ms 
+2025-08-10 18:46:02.9935 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c6d851f5 has started in 857,3717 ms 
+2025-08-10 18:46:02.9935 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:1c5f491b has started in 6,2124 ms 
+2025-08-10 18:46:56.9349 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 18:46:56.9559 INFO [Services.LoggerManager] Debug modu başlatılıyor... 
+2025-08-10 18:46:56.9669 INFO [Services.LoggerManager] NesService başlatılıyor... 
+2025-08-10 18:46:57.0025 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Start installing Hangfire SQL objects... 
+2025-08-10 18:47:02.5328 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Hangfire SQL objects installed. 
+2025-08-10 18:47:02.5582 INFO [Hangfire.BackgroundJobServer] Starting Hangfire Server using job storage: 'SQL Server: localhost@HangfireDb' 
+2025-08-10 18:47:02.5582 INFO [Hangfire.BackgroundJobServer] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+2025-08-10 18:47:02.5582 INFO [Hangfire.BackgroundJobServer] Using the following options for Hangfire Server:
+    Worker count: 40
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+2025-08-10 18:47:02.6137 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:f3efeba9 has started in 5,1373 ms 
+2025-08-10 18:47:02.6137 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.StopListening shutdown trigger initialized successfully. 
+2025-08-10 18:47:02.6395 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.ShutdownReason shutdown trigger initialized successfully. 
+2025-08-10 18:47:02.6395 DEBUG [Hangfire.Server.AspNetShutdownDetector] HttpRuntime._disposingHttpRuntime shutdown trigger initialized successfully. 
+2025-08-10 18:47:02.6395 INFO [Services.LoggerManager] Hangfire polling job başlatılıyor... 
+2025-08-10 18:47:02.7323 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:34408:d36cda5e successfully announced in 90,316 ms 
+2025-08-10 18:47:02.7323 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:f769399f has started in 3,5317 ms 
+2025-08-10 18:47:02.7323 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:34408:d36cda5e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+2025-08-10 18:47:02.7788 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:4c203787 has started in 2,7008 ms 
+2025-08-10 18:47:02.7788 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:0377699f has started in 3,8252 ms 
+2025-08-10 18:47:02.7788 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:8ec41f67 has started in 2,5892 ms 
+2025-08-10 18:47:02.7788 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:13ec9e58 has started in 3,296 ms 
+2025-08-10 18:47:02.7903 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:8aac3a9e has started in 3,0688 ms 
+2025-08-10 18:47:02.7903 DEBUG [Hangfire.SqlServer.CountersAggregator] Aggregating records in 'Counter' table... 
+2025-08-10 18:47:02.8076 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:98ff95ab has started in 16,8799 ms 
+2025-08-10 18:47:02.8076 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:59d311ce has started in 17,0136 ms 
+2025-08-10 18:47:02.8076 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4a50cb60 has started in 17,1117 ms 
+2025-08-10 18:47:02.8076 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f9efe801 has started in 16,9947 ms 
+2025-08-10 18:47:02.8365 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'AggregatedCounter' table... 
+2025-08-10 18:47:02.8365 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5b68198c has started in 46,1197 ms 
+2025-08-10 18:47:02.8365 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8cb0c2ac has started in 51,5802 ms 
+2025-08-10 18:47:02.8365 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:61501071 has started in 53,8144 ms 
+2025-08-10 18:47:02.8365 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ededd2e9 has started in 57,0119 ms 
+2025-08-10 18:47:02.8576 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:54a3b6a2 has started in 66,5762 ms 
+2025-08-10 18:47:02.8576 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ddba053a has started in 70,1362 ms 
+2025-08-10 18:47:02.9048 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:db12a3f8 has started in 113,8082 ms 
+2025-08-10 18:47:02.9048 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ae6f3b72 has started in 114,2645 ms 
+2025-08-10 18:47:02.9048 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:3c66f613 has started in 113,8421 ms 
+2025-08-10 18:47:02.9048 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:67ebca62 has started in 114,4029 ms 
+2025-08-10 18:47:02.9048 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:985fd545 has started in 114,4059 ms 
+2025-08-10 18:47:02.9315 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ccfa6f7e has started in 140,7395 ms 
+2025-08-10 18:47:02.9315 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6ca0ef26 has started in 142,1867 ms 
+2025-08-10 18:47:02.9048 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:00d0e375 has started in 114,7696 ms 
+2025-08-10 18:47:02.9315 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:34b1af73 has started in 143,3359 ms 
+2025-08-10 18:47:02.9641 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9fe45642 has started in 170,4012 ms 
+2025-08-10 18:47:03.0232 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Job' table... 
+2025-08-10 18:47:03.0528 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:37230882 has started in 262,2746 ms 
+2025-08-10 18:47:03.0840 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:14decae3 has started in 293,2663 ms 
+2025-08-10 18:47:03.1150 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c22bcac6 has started in 324,2202 ms 
+2025-08-10 18:47:03.1459 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:562174f8 has started in 354,5846 ms 
+2025-08-10 18:47:03.1760 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f6de4d16 has started in 385,1046 ms 
+2025-08-10 18:47:03.2063 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ba585c87 has started in 415,2901 ms 
+2025-08-10 18:47:03.2386 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2ade3eea has started in 447,46 ms 
+2025-08-10 18:47:03.2386 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d8ba8204 has started in 451,5656 ms 
+2025-08-10 18:47:03.2614 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:61df663d has started in 471,0545 ms 
+2025-08-10 18:47:03.2614 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ee59cf59 has started in 474,0174 ms 
+2025-08-10 18:47:03.2614 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'List' table... 
+2025-08-10 18:47:03.2755 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Set' table... 
+2025-08-10 18:47:03.2755 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Hash' table... 
+2025-08-10 18:47:03.2755 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7a7b0852 has started in 495,0381 ms 
+2025-08-10 18:47:03.3167 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:59b86f3e has started in 525,5489 ms 
+2025-08-10 18:47:03.3167 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9fe98db2 has started in 525,5348 ms 
+2025-08-10 18:47:03.3167 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b1fbf9b6 has started in 525,5347 ms 
+2025-08-10 18:47:03.3463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:3118ecba has started in 555,4723 ms 
+2025-08-10 18:47:03.3793 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a2a3b9bc has started in 587,8977 ms 
+2025-08-10 18:47:03.4090 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9905840d has started in 618,1721 ms 
+2025-08-10 18:47:03.4410 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:bf22ebb3 has started in 649,9276 ms 
+2025-08-10 18:47:03.4710 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:99f6b853 has started in 680,1563 ms 
+2025-08-10 18:47:03.5045 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b86e6230 has started in 713,4769 ms 
+2025-08-10 18:47:03.5388 INFO [Services.LoggerManager] Hangfire polling job başlatıldı! 
+2025-08-10 18:47:03.5468 INFO [Services.LoggerManager] NesService başarıyla başlatıldı. 
+2025-08-10 18:47:03.5468 INFO [Services.LoggerManager] Debug modu başlatıldı. Hangfire dashboard üzerinden job'ları kontrol edebilirsiniz... 
+2025-08-10 18:47:03.5686 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:e6bd7979 has started in 33,7378 ms 
+2025-08-10 18:47:03.5686 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:34408:d36cda5e all the dispatchers started 
+2025-08-10 18:52:24.8383 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 18:52:24.8653 INFO [Services.LoggerManager] Debug modu başlatılıyor... 
+2025-08-10 18:52:24.8758 INFO [Services.LoggerManager] NesService başlatılıyor... 
+2025-08-10 18:52:24.9068 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Start installing Hangfire SQL objects... 
+2025-08-10 18:52:25.3253 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Hangfire SQL objects installed. 
+2025-08-10 18:52:25.3493 INFO [Hangfire.BackgroundJobServer] Starting Hangfire Server using job storage: 'SQL Server: localhost@HangfireDb' 
+2025-08-10 18:52:25.3493 INFO [Hangfire.BackgroundJobServer] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+2025-08-10 18:52:25.3523 INFO [Hangfire.BackgroundJobServer] Using the following options for Hangfire Server:
+    Worker count: 40
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+2025-08-10 18:52:25.3703 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:4afc0ac4 has started in 4,8435 ms 
+2025-08-10 18:52:25.3703 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.StopListening shutdown trigger initialized successfully. 
+2025-08-10 18:52:25.3703 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.ShutdownReason shutdown trigger initialized successfully. 
+2025-08-10 18:52:25.3703 DEBUG [Hangfire.Server.AspNetShutdownDetector] HttpRuntime._disposingHttpRuntime shutdown trigger initialized successfully. 
+2025-08-10 18:52:25.3858 INFO [Services.LoggerManager] Hangfire polling job başlatılıyor... 
+2025-08-10 18:52:25.4854 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:31956:bf3ee52e successfully announced in 103,1385 ms 
+2025-08-10 18:52:25.4854 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:bb0b189e has started in 2,9562 ms 
+2025-08-10 18:52:25.4854 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:31956:bf3ee52e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+2025-08-10 18:52:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:3145f43e has started in 2,3139 ms 
+2025-08-10 18:52:25.4964 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:c7a10769 has started in 2,993 ms 
+2025-08-10 18:52:25.5294 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:a4f8b1ef has started in 29,5655 ms 
+2025-08-10 18:52:25.5294 INFO [Hangfire.Server.ServerWatchdog] 3 servers were removed due to timeout 
+2025-08-10 18:52:25.5294 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:df7e1a2e has started in 3,9738 ms 
+2025-08-10 18:52:25.5604 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:43c58931 has started in 26,7824 ms 
+2025-08-10 18:52:25.5604 DEBUG [Hangfire.SqlServer.CountersAggregator] Aggregating records in 'Counter' table... 
+2025-08-10 18:52:25.5604 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:fbe30978 has started in 4,1019 ms 
+2025-08-10 18:52:25.5914 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'AggregatedCounter' table... 
+2025-08-10 18:52:25.5914 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:18ec3211 has started in 35,0671 ms 
+2025-08-10 18:52:25.6064 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:62ced695 has started in 44,8684 ms 
+2025-08-10 18:52:25.6064 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:43f98636 has started in 52,0967 ms 
+2025-08-10 18:52:25.6404 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9fb7aada has started in 78,8304 ms 
+2025-08-10 18:52:25.6404 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c7afd7e2 has started in 78,9202 ms 
+2025-08-10 18:52:25.6404 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:271f7f5c has started in 78,9931 ms 
+2025-08-10 18:52:25.6404 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:546c52c3 has started in 78,8304 ms 
+2025-08-10 18:52:25.6694 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b71dee30 has started in 108,2207 ms 
+2025-08-10 18:52:25.7039 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:42286522 has started in 142,3591 ms 
+2025-08-10 18:52:25.7319 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:27d90b10 has started in 170,5987 ms 
+2025-08-10 18:52:25.7319 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c2a9d8eb has started in 170,8702 ms 
+2025-08-10 18:52:25.7319 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:33261cd4 has started in 170,8397 ms 
+2025-08-10 18:52:25.7919 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1cd7e46b has started in 230,4303 ms 
+2025-08-10 18:52:25.7919 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b46e691f has started in 230,6405 ms 
+2025-08-10 18:52:25.7919 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6646039f has started in 230,4379 ms 
+2025-08-10 18:52:25.7919 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:08c7ccf8 has started in 230,4629 ms 
+2025-08-10 18:52:25.8219 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:fc6b35cb has started in 260,9871 ms 
+2025-08-10 18:52:25.8219 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0b89e0d5 has started in 261,6817 ms 
+2025-08-10 18:52:25.8519 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:57c2e489 has started in 290,8814 ms 
+2025-08-10 18:52:25.8834 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Job' table... 
+2025-08-10 18:52:25.8834 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c7c0f254 has started in 327,0142 ms 
+2025-08-10 18:52:25.9164 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d9e5c890 has started in 354,9836 ms 
+2025-08-10 18:52:25.9515 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b762b38d has started in 390,336 ms 
+2025-08-10 18:52:25.9515 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'List' table... 
+2025-08-10 18:52:25.9515 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:bec997f2 has started in 398,9681 ms 
+2025-08-10 18:52:25.9911 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2be88303 has started in 430,1864 ms 
+2025-08-10 18:52:26.0211 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c6fa687c has started in 459,6734 ms 
+2025-08-10 18:52:26.0521 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:83b431a7 has started in 490,7692 ms 
+2025-08-10 18:52:26.0826 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Set' table... 
+2025-08-10 18:52:26.0826 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:dde76b94 has started in 521,7506 ms 
+2025-08-10 18:52:26.1136 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5cd248c5 has started in 552,5926 ms 
+2025-08-10 18:52:26.1216 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:beb08b67 has started in 560,6595 ms 
+2025-08-10 18:52:26.1606 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c8305744 has started in 599,3307 ms 
+2025-08-10 18:52:26.1606 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b572f44e has started in 599,3724 ms 
+2025-08-10 18:52:26.1911 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:30065157 has started in 630,3241 ms 
+2025-08-10 18:52:26.2391 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c2ec7599 has started in 678,1947 ms 
+2025-08-10 18:52:26.2391 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9893cc4a has started in 678,2026 ms 
+2025-08-10 18:52:26.2701 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b388faba has started in 709,1069 ms 
+2025-08-10 18:52:26.2701 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5b6caf34 has started in 709,1086 ms 
+2025-08-10 18:52:26.3006 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a2494514 has started in 739,8828 ms 
+2025-08-10 18:52:26.3306 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7a20780a has started in 769,3454 ms 
+2025-08-10 18:52:26.3606 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0f620b4c has started in 799,6727 ms 
+2025-08-10 18:52:26.3961 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:085485c4 has started in 5,7182 ms 
+2025-08-10 18:52:26.4532 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:31956:bf3ee52e all the dispatchers started 
+2025-08-10 18:52:26.4532 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop RecurringJobScheduler:591d4146 has started in 61,7783 ms 
+2025-08-10 18:52:26.5607 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Hash' table... 
+2025-08-10 18:52:26.5782 INFO [Services.LoggerManager] Hangfire polling job başlatıldı! 
+2025-08-10 18:52:26.5782 INFO [Services.LoggerManager] NesService başarıyla başlatıldı. 
+2025-08-10 18:52:26.5782 INFO [Services.LoggerManager] Debug modu başlatıldı. Hangfire dashboard üzerinden job'ları kontrol edebilirsiniz... 
+2025-08-10 18:52:26.6382 DEBUG [Services.LoggerManager] Polling döngüsü zaten çalışıyor, atlanıyor. 
+2025-08-10 18:52:26.6382 DEBUG [Services.LoggerManager] Polling döngüsü zaten çalışıyor, atlanıyor. 
+2025-08-10 18:52:26.6382 DEBUG [Services.LoggerManager] Polling döngüsü zaten çalışıyor, atlanıyor. 
+2025-08-10 18:52:35.1670 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 18:52:35.1995 INFO [Services.LoggerManager] Debug modu başlatılıyor... 
+2025-08-10 18:52:35.2125 INFO [Services.LoggerManager] NesService başlatılıyor... 
+2025-08-10 18:52:35.2445 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Start installing Hangfire SQL objects... 
+2025-08-10 18:52:35.6429 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Hangfire SQL objects installed. 
+2025-08-10 18:52:35.6679 INFO [Hangfire.BackgroundJobServer] Starting Hangfire Server using job storage: 'SQL Server: localhost@HangfireDb' 
+2025-08-10 18:52:35.6679 INFO [Hangfire.BackgroundJobServer] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+2025-08-10 18:52:35.6679 INFO [Hangfire.BackgroundJobServer] Using the following options for Hangfire Server:
+    Worker count: 40
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+2025-08-10 18:52:35.6924 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:d5dfff24 has started in 5,036 ms 
+2025-08-10 18:52:35.6924 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.StopListening shutdown trigger initialized successfully. 
+2025-08-10 18:52:35.7314 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.ShutdownReason shutdown trigger initialized successfully. 
+2025-08-10 18:52:35.7314 DEBUG [Hangfire.Server.AspNetShutdownDetector] HttpRuntime._disposingHttpRuntime shutdown trigger initialized successfully. 
+2025-08-10 18:52:35.7314 INFO [Services.LoggerManager] Hangfire polling job başlatılıyor... 
+2025-08-10 18:52:35.8266 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:18392:93bb0fa0 successfully announced in 92,8279 ms 
+2025-08-10 18:52:35.8266 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:f20880b5 has started in 2,5076 ms 
+2025-08-10 18:52:35.8266 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:18392:93bb0fa0 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+2025-08-10 18:52:35.8376 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:cbe96b6b has started in 2,3154 ms 
+2025-08-10 18:52:35.8376 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:a45ab3b1 has started in 4,2449 ms 
+2025-08-10 18:52:35.8376 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:3a1694b0 has started in 2,8173 ms 
+2025-08-10 18:52:35.8376 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:7cc77f64 has started in 3,7932 ms 
+2025-08-10 18:52:35.8376 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:88bd33f4 has started in 2,3421 ms 
+2025-08-10 18:52:35.8566 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'AggregatedCounter' table... 
+2025-08-10 18:52:35.8566 DEBUG [Hangfire.SqlServer.CountersAggregator] Aggregating records in 'Counter' table... 
+2025-08-10 18:52:35.8566 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:01316369 has started in 10,3118 ms 
+2025-08-10 18:52:35.8685 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e7d6523f has started in 18,4611 ms 
+2025-08-10 18:52:35.8685 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d695d6a1 has started in 23,8471 ms 
+2025-08-10 18:52:35.8685 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Job' table... 
+2025-08-10 18:52:35.8901 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'List' table... 
+2025-08-10 18:52:35.8901 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1c55f4ff has started in 40,5485 ms 
+2025-08-10 18:52:35.9141 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:57a4f2c2 has started in 63,8709 ms 
+2025-08-10 18:52:35.9461 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Set' table... 
+2025-08-10 18:52:35.9461 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:48becf89 has started in 96,1869 ms 
+2025-08-10 18:52:35.9461 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a6c6fab7 has started in 97,553 ms 
+2025-08-10 18:52:35.9461 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:340a42ed has started in 97,6028 ms 
+2025-08-10 18:52:35.9461 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:88f4d9d6 has started in 98,0662 ms 
+2025-08-10 18:52:36.0057 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:02caa77a has started in 155,99 ms 
+2025-08-10 18:52:35.9752 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d4adbdfb has started in 125,2784 ms 
+2025-08-10 18:52:36.0057 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:48e84fe0 has started in 155,7007 ms 
+2025-08-10 18:52:36.0377 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b34b59c6 has started in 187,6201 ms 
+2025-08-10 18:52:35.9752 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1ae6d0eb has started in 125,187 ms 
+2025-08-10 18:52:36.0057 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Hash' table... 
+2025-08-10 18:52:36.0712 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:552ed59a has started in 221,1099 ms 
+2025-08-10 18:52:36.1007 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:65f77519 has started in 250,6542 ms 
+2025-08-10 18:52:36.1297 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:22d3bc93 has started in 280,0283 ms 
+2025-08-10 18:52:36.1627 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b1c39850 has started in 312,5017 ms 
+2025-08-10 18:52:36.1952 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c1fc7565 has started in 344,8795 ms 
+2025-08-10 18:52:36.2232 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2bdd160b has started in 373,173 ms 
+2025-08-10 18:52:36.2538 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:48f28908 has started in 403,3236 ms 
+2025-08-10 18:52:36.2856 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5a297ba1 has started in 435,6547 ms 
+2025-08-10 18:52:36.3166 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:739f8184 has started in 466,8428 ms 
+2025-08-10 18:52:36.3166 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8b0e2b97 has started in 466,8793 ms 
+2025-08-10 18:52:36.3476 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c682ed78 has started in 497,9183 ms 
+2025-08-10 18:52:36.3676 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:3cbe1855 has started in 517,1764 ms 
+2025-08-10 18:52:36.3676 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c3d06d68 has started in 520,2547 ms 
+2025-08-10 18:52:36.3951 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:910d9f1e has started in 545,1698 ms 
+2025-08-10 18:52:36.3951 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:88d65f22 has started in 545,2395 ms 
+2025-08-10 18:52:36.4271 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a0cec411 has started in 576,8479 ms 
+2025-08-10 18:52:36.4571 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:dd667ec7 has started in 606,8766 ms 
+2025-08-10 18:52:36.4872 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:df6e44d6 has started in 637,1365 ms 
+2025-08-10 18:52:36.5182 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:cf652d20 has started in 668,0489 ms 
+2025-08-10 18:52:36.5502 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:535a042e has started in 700,5193 ms 
+2025-08-10 18:52:36.5817 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d31daec5 has started in 731,7002 ms 
+2025-08-10 18:52:36.6137 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ae461963 has started in 763,3455 ms 
+2025-08-10 18:52:36.6477 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:3584a021 has started in 797,7541 ms 
+2025-08-10 18:52:36.6477 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:de54c00d has started in 797,8576 ms 
+2025-08-10 18:52:36.6767 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a119dd2f has started in 826,7128 ms 
+2025-08-10 18:52:36.7083 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0b607167 has started in 858,3906 ms 
+2025-08-10 18:52:36.7502 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:e4f94ce5 has started in 14,1321 ms 
+2025-08-10 18:52:36.7663 INFO [Services.LoggerManager] Hangfire polling job başlatıldı! 
+2025-08-10 18:52:36.7663 INFO [Services.LoggerManager] NesService başarıyla başlatıldı. 
+2025-08-10 18:52:36.7663 INFO [Services.LoggerManager] Debug modu başlatıldı. Hangfire dashboard üzerinden job'ları kontrol edebilirsiniz... 
+2025-08-10 18:52:36.7763 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:18392:93bb0fa0 all the dispatchers started 
+2025-08-10 18:52:36.7763 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop RecurringJobScheduler:fc8e415d has started in 31,0888 ms 
+2025-08-10 18:52:50.8870 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 18:52:50.9085 INFO [Services.LoggerManager] Debug modu başlatılıyor... 
+2025-08-10 18:52:50.9195 INFO [Services.LoggerManager] NesService başlatılıyor... 
+2025-08-10 18:52:50.9525 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Start installing Hangfire SQL objects... 
+2025-08-10 18:52:51.0166 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Hangfire SQL objects installed. 
+2025-08-10 18:52:51.0416 INFO [Hangfire.BackgroundJobServer] Starting Hangfire Server using job storage: 'SQL Server: localhost@HangfireDb' 
+2025-08-10 18:52:51.0416 INFO [Hangfire.BackgroundJobServer] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+2025-08-10 18:52:51.0416 INFO [Hangfire.BackgroundJobServer] Using the following options for Hangfire Server:
+    Worker count: 40
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+2025-08-10 18:52:51.0656 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:c1314831 has started in 5,5197 ms 
+2025-08-10 18:52:51.0656 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.StopListening shutdown trigger initialized successfully. 
+2025-08-10 18:52:51.0926 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.ShutdownReason shutdown trigger initialized successfully. 
+2025-08-10 18:52:51.0926 DEBUG [Hangfire.Server.AspNetShutdownDetector] HttpRuntime._disposingHttpRuntime shutdown trigger initialized successfully. 
+2025-08-10 18:52:55.9218 INFO [Services.LoggerManager] Hangfire polling job başlatılıyor... 
+2025-08-10 18:52:56.4073 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:23328:215da8d8 successfully announced in 5311,9079 ms 
+2025-08-10 18:52:56.4073 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:6481d062 has started in 2,7729 ms 
+2025-08-10 18:52:56.4073 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:23328:215da8d8 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+2025-08-10 18:52:56.4173 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:b0554cfe has started in 2,1727 ms 
+2025-08-10 18:52:56.4173 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:49382d8b has started in 2,7703 ms 
+2025-08-10 18:52:56.4173 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:0315ee1f has started in 3,5393 ms 
+2025-08-10 18:52:56.4173 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:96788484 has started in 4,4989 ms 
+2025-08-10 18:52:56.4353 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'AggregatedCounter' table... 
+2025-08-10 18:52:56.4353 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:8370c5d1 has started in 8,7659 ms 
+2025-08-10 18:52:56.4613 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6821e75c has started in 26,0978 ms 
+2025-08-10 18:52:56.4613 DEBUG [Hangfire.SqlServer.CountersAggregator] Aggregating records in 'Counter' table... 
+2025-08-10 18:52:56.4613 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6389a756 has started in 34,1967 ms 
+2025-08-10 18:52:56.4813 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:78480770 has started in 45,8136 ms 
+2025-08-10 18:52:56.4813 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:692d5ec3 has started in 51,2886 ms 
+2025-08-10 18:52:56.4813 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:30c0d784 has started in 57,5182 ms 
+2025-08-10 18:52:56.4933 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Job' table... 
+2025-08-10 18:52:56.4933 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:bac84204 has started in 61,396 ms 
+2025-08-10 18:52:56.5228 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2e57a257 has started in 87,9283 ms 
+2025-08-10 18:52:56.5238 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5ebba521 has started in 88,1236 ms 
+2025-08-10 18:52:56.5228 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:21c87a65 has started in 88,0423 ms 
+2025-08-10 18:52:56.5228 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7c723a51 has started in 87,9318 ms 
+2025-08-10 18:52:56.5238 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7d46b28d has started in 88,1252 ms 
+2025-08-10 18:52:56.5538 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:47852374 has started in 118,9493 ms 
+2025-08-10 18:52:56.5538 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f7790a14 has started in 118,9494 ms 
+2025-08-10 18:52:56.5858 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5412b062 has started in 150,4769 ms 
+2025-08-10 18:52:56.6143 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ab4ef62b has started in 178,7847 ms 
+2025-08-10 18:52:56.6143 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'List' table... 
+2025-08-10 18:52:56.6473 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:84927346 has started in 212,2936 ms 
+2025-08-10 18:52:56.6473 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2cbad13e has started in 213,4172 ms 
+2025-08-10 18:52:56.6473 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d51d5e9c has started in 212,3335 ms 
+2025-08-10 18:52:56.6807 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:7281b933 has started in 245,1898 ms 
+2025-08-10 18:52:56.7093 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ff232ae4 has started in 273,2195 ms 
+2025-08-10 18:52:56.7417 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:889ac963 has started in 306,4844 ms 
+2025-08-10 18:52:56.7417 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:16a98a3e has started in 306,4994 ms 
+2025-08-10 18:52:56.7497 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Set' table... 
+2025-08-10 18:52:56.7637 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Hash' table... 
+2025-08-10 18:52:56.7637 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4506ad60 has started in 337,6955 ms 
+2025-08-10 18:52:56.7777 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:3059b3b9 has started in 342,4032 ms 
+2025-08-10 18:52:56.7777 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:36d66df3 has started in 346,4415 ms 
+2025-08-10 18:52:56.7777 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2f1af6e8 has started in 349,9106 ms 
+2025-08-10 18:52:56.8173 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4a4fdefa has started in 381,3958 ms 
+2025-08-10 18:52:56.8173 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a5b3dff4 has started in 381,3916 ms 
+2025-08-10 18:52:56.8173 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:dc69e9af has started in 381,482 ms 
+2025-08-10 18:52:56.8463 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:caa3f974 has started in 411,0952 ms 
+2025-08-10 18:52:56.8793 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5383cacd has started in 443,9995 ms 
+2025-08-10 18:52:56.8793 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:df576d1d has started in 444,54 ms 
+2025-08-10 18:52:56.9085 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c03e47af has started in 473,1064 ms 
+2025-08-10 18:52:56.9379 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:57cfc53e has started in 503,076 ms 
+2025-08-10 18:52:56.9689 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b9f1e9dc has started in 534,0823 ms 
+2025-08-10 18:52:56.9999 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0ac2cd15 has started in 564,5152 ms 
+2025-08-10 18:52:57.0285 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:1c9615ef has started in 593,5214 ms 
+2025-08-10 18:52:57.0285 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:06d2c750 has started in 593,5162 ms 
+2025-08-10 18:52:57.0595 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:95cc2135 has started in 623,8484 ms 
+2025-08-10 18:52:57.0595 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9ce67b0c has started in 624,3104 ms 
+2025-08-10 18:52:57.1108 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:01f5f291 has started in 50,3332 ms 
+2025-08-10 18:52:57.1108 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:23328:215da8d8 all the dispatchers started 
+2025-08-10 18:52:57.1108 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop RecurringJobScheduler:8d7411e1 has started in 5,6599 ms 
+2025-08-10 18:52:57.7787 INFO [Services.LoggerManager] Hangfire polling job başlatıldı! 
+2025-08-10 18:53:00.1352 INFO [Services.LoggerManager] NesService başarıyla başlatıldı. 
+2025-08-10 18:53:04.0476 INFO [Services.LoggerManager] Debug modu başlatıldı. Hangfire dashboard üzerinden job'ları kontrol edebilirsiniz... 
+2025-08-10 19:00:59.5749 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 21:20:55.1969 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 21:33:09.3087 INFO [Services.LoggerManager] PollingWatcherService konfigüre edildi. Kontrol süresi: 10000ms, Max retry: 5, Retry delay: 1000ms 
+2025-08-10 21:33:09.9873 INFO [Services.LoggerManager] NesService başlatılıyor... 
+2025-08-10 21:33:10.0813 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Start installing Hangfire SQL objects... 
+2025-08-10 21:33:10.8533 INFO [Hangfire.SqlServer.SqlServerObjectsInstaller] Hangfire SQL objects installed. 
+2025-08-10 21:33:10.8803 INFO [Hangfire.BackgroundJobServer] Starting Hangfire Server using job storage: 'SQL Server: localhost@HangfireDb' 
+2025-08-10 21:33:10.8803 INFO [Hangfire.BackgroundJobServer] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+2025-08-10 21:33:10.8803 INFO [Hangfire.BackgroundJobServer] Using the following options for Hangfire Server:
+    Worker count: 40
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+2025-08-10 21:33:10.9094 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:ba2aaadb has started in 4,1049 ms 
+2025-08-10 21:33:10.9363 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.StopListening shutdown trigger initialized successfully. 
+2025-08-10 21:33:10.9363 DEBUG [Hangfire.Server.AspNetShutdownDetector] HostingEnvironment.ShutdownReason shutdown trigger initialized successfully. 
+2025-08-10 21:33:10.9523 DEBUG [Hangfire.Server.AspNetShutdownDetector] HttpRuntime._disposingHttpRuntime shutdown trigger initialized successfully. 
+2025-08-10 21:33:10.9523 INFO [Services.LoggerManager] Hangfire polling job başlatılıyor... 
+2025-08-10 21:33:11.2118 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:4100:a1ca153f successfully announced in 288,5556 ms 
+2025-08-10 21:33:11.2118 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:b07532b9 has started in 4,8447 ms 
+2025-08-10 21:33:11.2118 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:4100:a1ca153f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, SqlServerHeartbeatProcess, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+2025-08-10 21:33:11.2318 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:c169bc5a has started in 1,7246 ms 
+2025-08-10 21:33:11.2318 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:b22503ae has started in 1,1642 ms 
+2025-08-10 21:33:11.2318 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:05d9a6ec has started in 1,7324 ms 
+2025-08-10 21:33:11.2318 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:48225e67 has started in 1,7415 ms 
+2025-08-10 21:33:11.2318 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'AggregatedCounter' table... 
+2025-08-10 21:33:11.2318 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:56159337 has started in 1,4649 ms 
+2025-08-10 21:33:11.2438 INFO [Hangfire.Server.ServerWatchdog] 3 servers were removed due to timeout 
+2025-08-10 21:33:11.2438 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c456bf2d has started in 1,6367 ms 
+2025-08-10 21:33:11.2438 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:730d5c82 has started in 2,5422 ms 
+2025-08-10 21:33:11.2438 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4e5b4563 has started in 3,064 ms 
+2025-08-10 21:33:11.2438 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:306b06c2 has started in 2,2584 ms 
+2025-08-10 21:33:11.2438 DEBUG [Hangfire.SqlServer.CountersAggregator] Aggregating records in 'Counter' table... 
+2025-08-10 21:33:11.2438 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a74fc927 has started in 2,8216 ms 
+2025-08-10 21:33:11.2438 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:49453248 has started in 5,8309 ms 
+2025-08-10 21:33:11.2438 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5c79450c has started in 9,4651 ms 
+2025-08-10 21:33:11.2438 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d5c2fe27 has started in 11,662 ms 
+2025-08-10 21:33:11.2438 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:15cbb8a4 has started in 4,5738 ms 
+2025-08-10 21:33:11.2588 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4b288aa1 has started in 15,9895 ms 
+2025-08-10 21:33:11.2588 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e3413a77 has started in 18,6354 ms 
+2025-08-10 21:33:11.2588 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:3638c098 has started in 22,0898 ms 
+2025-08-10 21:33:11.2588 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8d7db8c3 has started in 27,0801 ms 
+2025-08-10 21:33:11.2588 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:733038dc has started in 28,3069 ms 
+2025-08-10 21:33:11.2588 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:bde1ce7a has started in 28,9907 ms 
+2025-08-10 21:33:11.2588 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a0f4ed65 has started in 29,5265 ms 
+2025-08-10 21:33:11.2588 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ccee1295 has started in 30,385 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2068f32c has started in 30,8802 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:51ba15ad has started in 31,6303 ms 
+2025-08-10 21:33:11.2588 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Job' table... 
+2025-08-10 21:33:11.2588 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:53b5a5df has started in 30,1367 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ac9fe4ce has started in 32,7513 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:bd15236f has started in 33,0564 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9be4e8ac has started in 32,227 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9ee5210e has started in 34,1988 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:666b13bb has started in 34,938 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:65593898 has started in 33,6047 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5b683e07 has started in 32,5056 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6af47c85 has started in 37,0885 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e16b8f7f has started in 38,1448 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f5901372 has started in 34,4157 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:df80b807 has started in 35,6694 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:26fbc002 has started in 39,8664 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9f1e440f has started in 36,1236 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:223e1f9c has started in 41,2749 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d95a014d has started in 41,8746 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0c545314 has started in 37,2995 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b5cc18df has started in 38,6641 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c2cb6c20 has started in 37,5239 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8f6bb25f has started in 39,5272 ms 
+2025-08-10 21:33:11.2738 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:4100:a1ca153f all the dispatchers started 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:70e4158f has started in 42,367 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:afe18d23 has started in 1,2833 ms 
+2025-08-10 21:33:11.2738 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop RecurringJobScheduler:3f452742 has started in 0,9139 ms 
+2025-08-10 21:33:11.2938 INFO [Services.LoggerManager] Hangfire polling job başlatıldı! 
+2025-08-10 21:33:11.2938 INFO [Services.LoggerManager] NesService başarıyla başlatıldı. 
+2025-08-10 21:33:11.3178 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'List' table... 
+2025-08-10 21:33:11.3828 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Set' table... 
+2025-08-10 21:33:11.3878 DEBUG [Hangfire.SqlServer.ExpirationManager] Removing outdated records from the 'Hash' table... 
+2025-08-10 21:33:11.5168 DEBUG [Services.LoggerManager] Polling döngüsü zaten çalışıyor, atlanıyor. 
+2025-08-10 21:33:11.5168 DEBUG [Services.LoggerManager] Polling döngüsü zaten çalışıyor, atlanıyor. 
+2025-08-10 21:33:11.5168 DEBUG [Services.LoggerManager] Polling döngüsü zaten çalışıyor, atlanıyor. 
+2025-08-10 21:33:11.5168 DEBUG [Services.LoggerManager] Polling döngüsü zaten çalışıyor, atlanıyor. 
+2025-08-10 21:33:11.5168 DEBUG [Services.LoggerManager] Polling döngüsü zaten çalışıyor, atlanıyor. 
+2025-08-10 21:33:11.5168 DEBUG [Services.LoggerManager] Polling döngüsü zaten çalışıyor, atlanıyor. 
+2025-08-10 21:33:11.5168 DEBUG [Services.LoggerManager] Polling döngüsü zaten çalışıyor, atlanıyor. 
+2025-08-10 21:33:16.1838 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:33:16.2317 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:33:16.3607 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:33:16.3827 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:33:26.3778 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:33:26.3908 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:33:26.4124 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:33:26.4154 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:33:26.4154 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:33:41.2423 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:33:41.3950 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:33:41.4070 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:33:41.4279 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:33:41.4279 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:33:41.4279 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:33:56.4446 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:33:56.5026 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:33:56.5186 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:33:56.5186 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:33:56.5246 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:34:11.2621 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:34:11.4651 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:34:11.4822 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:34:11.4942 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:34:11.4942 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:34:11.4942 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:34:26.5104 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:34:26.5244 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:34:26.5434 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:34:26.5434 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:34:26.5434 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:34:41.2723 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:34:41.5487 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:34:41.5677 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:34:41.5807 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:34:41.5807 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:34:41.5807 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:34:58.8111 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:34:59.3268 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:34:59.6230 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:34:59.6450 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:34:59.6450 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:35:11.3016 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:35:13.8709 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:35:13.9259 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:35:13.9629 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:35:13.9629 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:35:13.9629 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:35:28.8927 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:35:28.9038 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:35:28.9267 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:35:28.9267 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:35:28.9307 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:35:41.3169 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:35:43.9218 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:35:43.9218 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:35:43.9476 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:35:43.9476 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:35:43.9476 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:35:58.9353 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:35:58.9353 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:35:58.9463 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:35:58.9463 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:35:58.9463 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:36:11.3418 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:36:13.9795 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:36:14.0287 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:36:14.0727 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:36:14.0997 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:36:14.0997 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:36:28.9918 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:36:28.9958 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:36:28.9958 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:36:28.9958 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:36:28.9958 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:36:41.3516 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:36:44.0102 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:36:44.0102 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:36:44.0381 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:36:44.0411 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:36:44.0411 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:36:59.0450 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:36:59.0560 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:36:59.0714 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:36:59.0714 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:36:59.0714 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:37:11.3834 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:37:14.0915 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:37:14.1307 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:37:14.1482 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:37:14.1512 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:37:14.1512 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:37:29.1130 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:37:29.1130 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:37:29.1305 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:37:29.1335 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:37:29.1335 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:37:41.4028 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:37:44.1379 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:37:44.1379 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:37:44.1571 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:37:44.1571 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:37:44.1571 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:37:59.1646 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:37:59.1646 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:37:59.1836 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:37:59.1836 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:37:59.1836 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:38:11.3781 DEBUG [Hangfire.SqlServer.CountersAggregator] Aggregating records in 'Counter' table... 
+2025-08-10 21:38:11.4151 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:38:14.3154 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:38:14.4552 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:38:14.5551 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:38:14.5551 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:38:14.5551 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:38:29.3821 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:38:29.4344 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:38:29.4600 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:38:29.4646 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:38:29.4646 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:38:41.4357 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:38:44.3956 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:38:44.4076 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:38:44.4266 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:38:44.4266 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:38:44.4306 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:38:59.4395 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:38:59.4485 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:38:59.4618 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:38:59.4618 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:38:59.4618 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:39:11.4438 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:39:14.4757 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:39:14.4807 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:39:14.4807 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:39:14.4930 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:39:14.4930 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:39:29.5459 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:39:29.6025 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:39:29.6399 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:39:29.6399 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:39:29.6399 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:39:41.4615 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:39:44.5748 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:39:44.6003 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:39:44.6068 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:39:44.6068 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:39:44.6068 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:39:59.5967 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:39:59.5967 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:39:59.6157 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:39:59.6197 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:39:59.6197 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:40:11.4875 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:40:14.6334 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:40:14.6334 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:40:14.6704 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:40:14.6704 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:40:14.6704 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:40:29.6834 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:40:29.7299 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:40:29.7665 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:40:29.7665 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:40:29.7665 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:40:41.5098 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:40:44.7064 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:40:44.7124 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:40:44.7124 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:40:44.7124 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:40:44.7124 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:40:59.7188 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:40:59.7188 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:40:59.7358 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:40:59.7358 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:40:59.7358 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:41:11.5156 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:41:14.7365 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:41:14.7432 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:41:14.7682 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:41:14.7682 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:41:14.7682 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:41:29.7704 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:41:29.7754 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:41:29.7945 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:41:29.7945 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:41:29.7945 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:41:41.5344 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:41:44.8220 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:41:44.8654 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:41:44.8904 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:41:44.8904 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:41:44.8904 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:41:59.8372 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:41:59.8372 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:41:59.8562 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:41:59.8562 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:41:59.8562 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:42:11.5507 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:42:14.8694 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:42:14.8694 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:42:14.8854 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:42:14.8854 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:42:14.8854 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:42:29.8879 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:42:29.9099 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:42:29.9229 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:42:29.9229 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:42:29.9229 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:42:41.5549 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:42:46.4024 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:42:46.4384 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:42:46.4714 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:42:46.4714 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:42:46.4774 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:43:01.4160 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:43:01.4160 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:43:01.4427 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:43:01.4457 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:43:01.4457 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:43:11.4386 DEBUG [Hangfire.SqlServer.CountersAggregator] Aggregating records in 'Counter' table... 
+2025-08-10 21:43:11.5715 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:43:16.4286 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:43:16.4366 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:43:16.4366 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:43:16.4366 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:43:16.4466 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:43:31.4489 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:43:31.4489 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:43:31.4650 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:43:31.4650 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:43:31.4650 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:43:41.5875 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:43:46.4689 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:43:46.4689 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:43:46.4868 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:43:46.4868 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:43:46.4868 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:44:01.5068 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:44:01.5398 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:44:01.5728 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:44:01.5728 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:44:01.5728 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:44:11.6015 DEBUG [Hangfire.Server.ServerHeartbeatProcess] Server theomerf:4100:a1ca153f heartbeat successfully sent 
+2025-08-10 21:44:16.5284 DEBUG [Hangfire.Server.DelayedJobScheduler] 1 scheduled job(s) processed by scheduler. 
+2025-08-10 21:44:16.5284 INFO [Services.LoggerManager] 1 adet bekleyen request bulundu. 
+2025-08-10 21:44:16.5484 INFO [Services.LoggerManager] Request işleniyor - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726, Type: Mail, Deneme: 1/5 
+2025-08-10 21:44:16.5484 INFO [Services.LoggerManager] MAİL GÖNDERME ÇALIŞIYOR 
+2025-08-10 21:44:16.5484 INFO [Services.LoggerManager] Request başarıyla işlendi - ID: 39973ea7-e0cc-4100-a4bf-0a437f1b7726 
+2025-08-10 21:44:20.5886 INFO [Services.LoggerManager] NesService durduruluyor... 
+2025-08-10 21:44:20.5886 INFO [Services.LoggerManager] Polling watcher durduruluyor... 
+2025-08-10 21:44:20.5886 INFO [Services.LoggerManager] Polling watcher durduruldu! 
+2025-08-10 21:44:20.5886 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:4100:a1ca153f caught stopping signal... 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:51ba15ad stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:49453248 stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9f1e440f stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop RecurringJobScheduler:3f452742 stopped in 0,8668 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop DelayedJobScheduler:afe18d23 stopped in 2,027 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4b288aa1 stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c2cb6c20 stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerWatchdog:c169bc5a stopped in 1,396 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:53b5a5df stopped in 1,715 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:c456bf2d stopped in 0 ms 
+2025-08-10 21:44:20.6347 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:730d5c82 stopped in 19,7285 ms 
+2025-08-10 21:44:20.6347 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:65593898 stopped in 21,5403 ms 
+2025-08-10 21:44:20.6347 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9ee5210e stopped in 10,0151 ms 
+2025-08-10 21:44:20.6347 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:bd15236f stopped in 12,0059 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:4e5b4563 stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:6af47c85 stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5c79450c stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:9be4e8ac stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:0c545314 stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a0f4ed65 stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:666b13bb stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d95a014d stopped in 0 ms 
+2025-08-10 21:44:20.6347 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ac9fe4ce stopped in 11,7469 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ExpirationManager:48225e67 stopped in 1,8021 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e16b8f7f stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:e3413a77 stopped in 0 ms 
+2025-08-10 21:44:20.6347 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:a74fc927 stopped in 7,9567 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:26fbc002 stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:3638c098 stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8f6bb25f stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerJobCancellationWatcher:b22503ae stopped in 1,5859 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:15cbb8a4 stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:70e4158f stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:d5c2fe27 stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:ccee1295 stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:f5901372 stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:b5cc18df stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:5b683e07 stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop CountersAggregator:56159337 stopped in 1,8099 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:306b06c2 stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:733038dc stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:8d7db8c3 stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:df80b807 stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:bde1ce7a stopped in 0 ms 
+2025-08-10 21:44:20.6097 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:223e1f9c stopped in 0 ms 
+2025-08-10 21:44:20.6186 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop Worker:2068f32c stopped in 0 ms 
+2025-08-10 21:44:21.1414 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:4100:a1ca153f caught stopped signal... 
+2025-08-10 21:44:21.5344 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop SqlServerHeartbeatProcess:05d9a6ec stopped in 908,2053 ms 
+2025-08-10 21:44:21.5344 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:4100:a1ca153f All dispatchers stopped 
+2025-08-10 21:44:21.5344 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop ServerHeartbeatProcess:b07532b9 stopped in 0,2651 ms 
+2025-08-10 21:44:21.5464 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:4100:a1ca153f successfully reported itself as stopped in 5,9369 ms 
+2025-08-10 21:44:21.5464 INFO [Hangfire.Server.BackgroundServerProcess] Server theomerf:4100:a1ca153f has been stopped in total 920,485 ms 
+2025-08-10 21:44:21.5464 DEBUG [Hangfire.Processing.BackgroundExecution] Execution loop BackgroundServerProcess:ba2aaadb stopped in 952,6014 ms 
+2025-08-10 21:44:21.5464 INFO [Services.LoggerManager] NesService başarıyla durduruldu. 

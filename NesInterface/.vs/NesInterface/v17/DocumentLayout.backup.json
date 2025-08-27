@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{465B6FBA-61F1-426E-AC6F-371B2C59689A}|NesInterface\\NesInterface.csproj|c:\\users\\omerf\\onedrive\\masa\u00FCst\u00FC\\staj\\nes\\nesinterface\\nesinterface\\views\\home\\testnotification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{465B6FBA-61F1-426E-AC6F-371B2C59689A}|NesInterface\\NesInterface.csproj|solutionrelative:nesinterface\\views\\home\\testnotification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465B6FBA-61F1-426E-AC6F-371B2C59689A}|NesInterface\\NesInterface.csproj|c:\\users\\omerf\\onedrive\\masa\u00FCst\u00FC\\staj\\nes\\nesinterface\\nesinterface\\views\\home\\addrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{465B6FBA-61F1-426E-AC6F-371B2C59689A}|NesInterface\\NesInterface.csproj|solutionrelative:nesinterface\\views\\home\\addrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465B6FBA-61F1-426E-AC6F-371B2C59689A}|NesInterface\\NesInterface.csproj|c:\\users\\omerf\\onedrive\\masa\u00FCst\u00FC\\staj\\nes\\nesinterface\\nesinterface\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{465B6FBA-61F1-426E-AC6F-371B2C59689A}|NesInterface\\NesInterface.csproj|solutionrelative:nesinterface\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465B6FBA-61F1-426E-AC6F-371B2C59689A}|NesInterface\\NesInterface.csproj|c:\\users\\omerf\\onedrive\\masa\u00FCst\u00FC\\staj\\nes\\nesinterface\\nesinterface\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{465B6FBA-61F1-426E-AC6F-371B2C59689A}|NesInterface\\NesInterface.csproj|solutionrelative:nesinterface\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465B6FBA-61F1-426E-AC6F-371B2C59689A}|NesInterface\\NesInterface.csproj|c:\\users\\omerf\\onedrive\\masa\u00FCst\u00FC\\staj\\nes\\nesinterface\\nesinterface\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465B6FBA-61F1-426E-AC6F-371B2C59689A}|NesInterface\\NesInterface.csproj|solutionrelative:nesinterface\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465B6FBA-61F1-426E-AC6F-371B2C59689A}|NesInterface\\NesInterface.csproj|c:\\users\\omerf\\onedrive\\masa\u00FCst\u00FC\\staj\\nes\\nesinterface\\nesinterface\\views\\shared\\components\\requeststats\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{465B6FBA-61F1-426E-AC6F-371B2C59689A}|NesInterface\\NesInterface.csproj|solutionrelative:nesinterface\\views\\shared\\components\\requeststats\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\NesInterface\\Views\\Shared\\Components\\RequestStats\\Default.cshtml",
+              "RelativeDocumentMoniker": "NesInterface\\Views\\Shared\\Components\\RequestStats\\Default.cshtml",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\NesInterface\\Views\\Shared\\Components\\RequestStats\\Default.cshtml",
+              "RelativeToolTip": "NesInterface\\Views\\Shared\\Components\\RequestStats\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T06:24:08.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\NesInterface\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NesInterface\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\NesInterface\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NesInterface\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswD4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T05:49:26.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\NesInterface\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "NesInterface\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\NesInterface\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "NesInterface\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-08-14T11:53:47.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\NesInterface\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NesInterface\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\NesInterface\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NesInterface\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T08:33:02.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddRequest.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\NesInterface\\Views\\Home\\AddRequest.cshtml",
+              "RelativeDocumentMoniker": "NesInterface\\Views\\Home\\AddRequest.cshtml",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\NesInterface\\Views\\Home\\AddRequest.cshtml",
+              "RelativeToolTip": "NesInterface\\Views\\Home\\AddRequest.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T07:42:17.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestNotification.cshtml",
+              "DocumentMoniker": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\NesInterface\\Views\\Home\\TestNotification.cshtml",
+              "RelativeDocumentMoniker": "NesInterface\\Views\\Home\\TestNotification.cshtml",
+              "ToolTip": "C:\\Users\\omerf\\OneDrive\\Masa\u00FCst\u00FC\\Staj\\Nes\\NesInterface\\NesInterface\\Views\\Home\\TestNotification.cshtml",
+              "RelativeToolTip": "NesInterface\\Views\\Home\\TestNotification.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T07:49:47.267Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

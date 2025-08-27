@@ -1,0 +1,119 @@
+2025-08-13 08:52:58.3104 INFO 43e7cfae-7e71-4ebf-bf76-bd6cb85eca95'li mail başarıyla oluşturuldu.
+2025-08-13 09:07:34.0174 INFO aa530505-48d5-4770-8f02-c8087cbb63ab'li mail başarıyla oluşturuldu.
+2025-08-13 09:07:35.9795 INFO 260612a7-573d-4539-aa8d-ef94cdd75a01'li mail başarıyla oluşturuldu.
+2025-08-13 09:27:16.2710 WARN 'From' alanı boş olamaz.
+2025-08-13 09:27:16.3490 INFO 4da4558b-178d-4798-ba05-e425ac117753'li bildirim başarıyla oluşturuldu.
+2025-08-13 09:27:18.9767 INFO 7a1b19de-72f4-44a6-91d0-872f0980c9d7'li mail başarıyla oluşturuldu.
+2025-08-13 09:35:20.9126 WARN 'From' alanı boş olamaz.
+2025-08-13 09:35:21.6318 INFO ff17ab0d-8e17-4c06-81bb-67f6bcf79823'li bildirim başarıyla oluşturuldu.
+2025-08-13 09:36:42.1839 WARN 'From' alanı boş olamaz.
+2025-08-13 09:36:42.3069 INFO c6ee4bf3-a237-4a04-8810-0c30bd64b142'li bildirim başarıyla oluşturuldu.
+2025-08-13 09:37:02.8064 INFO 6a8f4da2-eac8-4674-957a-47a37b47c612'li mail başarıyla oluşturuldu.
+2025-08-13 09:46:37.1819 INFO f4008ba7-a1fb-4662-b035-54f4211da717'li mail başarıyla oluşturuldu.
+2025-08-13 10:45:06.1339 INFO fd5db3bf-2cd0-49ec-a3d2-ec31a540cc55'li mail başarıyla oluşturuldu.
+2025-08-13 10:47:11.0844 WARN 'From' alanı boş olamaz.
+2025-08-13 10:47:11.0954 INFO 4b76da45-23f5-4607-987d-67fa76dddf11'li bildirim başarıyla oluşturuldu.
+2025-08-13 10:50:01.7309 WARN 'From' alanı boş olamaz.
+2025-08-13 10:50:01.7880 INFO 9e09cce6-850e-406a-b6f9-950c9a6433e7'li bildirim başarıyla oluşturuldu.
+2025-08-13 10:50:35.5821 INFO dd2ef1c1-e4a6-425f-91a6-d1289b00f81d'li mail başarıyla oluşturuldu.
+2025-08-13 10:53:42.4221 WARN 'From' alanı boş olamaz.
+2025-08-13 10:53:42.4341 INFO a50ad51c-fa01-4a1b-816b-88a353f46e11'li bildirim başarıyla oluşturuldu.
+2025-08-13 10:54:32.0135 WARN 'From' alanı boş olamaz.
+2025-08-13 10:54:32.0335 INFO bd08fc0c-fa4b-4b70-916e-a51a8e616eb1'li bildirim başarıyla oluşturuldu.
+2025-08-13 10:54:33.6817 INFO 5d1f5753-e602-42f5-92cc-0f8bb99c742f'li mail başarıyla oluşturuldu.
+2025-08-13 10:54:35.0868 INFO df10b08e-4538-43b8-9a2d-b3eb15e4ca0c'li mail başarıyla oluşturuldu.
+2025-08-13 11:13:41.8723 WARN 'From' alanı boş olamaz.
+2025-08-13 11:13:41.9324 INFO b4094e10-fcc7-4456-84c5-5e902e155daf'li bildirim başarıyla oluşturuldu.
+2025-08-13 11:14:09.1022 INFO 8e907a78-722a-4f1b-934c-4b8821521de0'li mail başarıyla oluşturuldu.
+2025-08-13 11:16:03.0505 INFO f0fae15b-0655-4572-98a3-ce36e6f79420'li mail başarıyla oluşturuldu.
+2025-08-13 11:16:05.8186 WARN 'From' alanı boş olamaz.
+2025-08-13 11:16:05.8384 INFO ff15c1ac-3cae-4db7-951e-6cdc20e0ac32'li bildirim başarıyla oluşturuldu.
+2025-08-13 11:17:42.9511 INFO dc0996bb-8d8f-48c9-ab62-84f45df40682'li mail başarıyla oluşturuldu.
+2025-08-13 11:19:11.1949 INFO afc44c3f-083e-4f29-b875-a09479bb8a0c'li mail başarıyla oluşturuldu.
+2025-08-13 11:28:02.6253 INFO 9ba9ed3e-c01b-4a81-afd8-330ec952ab7c'li mail başarıyla oluşturuldu.
+2025-08-13 11:28:43.1225 WARN 'From' alanı boş olamaz.
+2025-08-13 11:28:43.1654 INFO e8046bf4-2144-4a25-b5ca-459a0a4e30bb'li bildirim başarıyla oluşturuldu.
+2025-08-13 11:29:33.5203 ERROR Controller'da bir hata oluştu: System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The conversion of a datetime2 data type to a datetime data type resulted in an out-of-range value.
+The statement has been terminated.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   konum: System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   konum: System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   konum: System.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   konum: System.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   konum: System.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   konum: System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.<ExecuteAsync>d__8.MoveNext()
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.<UpdateAsync>d__39.MoveNext()
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.<UpdateAsync>d__39.MoveNext()
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__156`1.MoveNext()
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStoreAsync>d__154.MoveNext()
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<ExecuteAsyncImplementation>d__6`1.MoveNext()
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesInternalAsync>d__151.MoveNext()
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   konum: Repositories.RepositoryManager.<SaveAsync>d__12.MoveNext() C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesAPI\Repositories\RepositoryManager.cs içinde: satır 36
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   konum: Services.SmsManager.<CreateSmsAsync>d__4.MoveNext() C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesAPI\Services\SmsManager.cs içinde: satır 44
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   konum: API.Controllers.SmsController.<Send>d__2.MoveNext() C:\Users\omerf\OneDrive\Masaüstü\Staj\Nes\NesAPI\API\Controllers\SmsController.cs içinde: satır 32
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__1`1.MoveNext()
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__3.MoveNext()
+--- Özel durumun oluşturulduğu önceki konumdan başlayan yığın izlemesinin sonu ---
+   konum: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2025-08-13 11:37:38.2103 DEBUG 751d3198-5329-4ea4-9c82-3b4a9087c4c2'li sms başarıyla oluşturuldu.
+2025-08-13 11:41:47.9181 DEBUG 55dcad74-f62e-4a24-9eb7-68aa525d280e'li sms başarıyla oluşturuldu.
+2025-08-13 11:50:29.5285 DEBUG 8f9b543b-5043-4afe-8ec9-7a807b2e7a95'li sms başarıyla oluşturuldu.
+2025-08-13 11:57:42.1548 DEBUG 63a84711-1631-4f14-bee3-421d0e22e382'li sms başarıyla oluşturuldu.
+2025-08-13 13:19:47.4693 DEBUG fb685b58-38d6-4d06-87e4-bbfcce72d2c3'li bildirim başarıyla oluşturuldu.
+2025-08-13 13:24:25.8489 DEBUG 09dd9412-5543-4013-982f-2da62e0091a4'li bildirim başarıyla oluşturuldu.
+2025-08-13 13:24:56.2059 DEBUG 92dcb896-262b-4180-b807-84ab6759e83d'li bildirim başarıyla oluşturuldu.
+2025-08-13 13:24:58.3283 DEBUG 9b747ead-aa30-487b-9301-7053d51f249f'li mail başarıyla oluşturuldu.
+2025-08-13 13:24:59.6174 DEBUG ffb4ec84-028b-4307-8101-ea0f79d3e37b'li mail başarıyla oluşturuldu.
+2025-08-13 13:25:42.5243 DEBUG 21743a54-d93b-46f3-953c-184d6c31aff8'li sms başarıyla oluşturuldu.
+2025-08-13 17:46:39.9810 DEBUG fa3df30a-71c7-4935-b2f4-93d9c07148f5'li mail başarıyla oluşturuldu.
+2025-08-13 17:47:15.3475 DEBUG d7205291-63b7-4f42-a5cc-443653feab11'li bildirim başarıyla oluşturuldu.
+2025-08-13 17:49:16.0526 DEBUG 27d142c5-220d-4bf9-bf41-3fabac75325d'li mail başarıyla oluşturuldu.
